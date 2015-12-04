@@ -1,2 +1,2 @@
 # NightBits-Updater
-NightBitsUpdater For C# applications
+NightBits Updater for C#

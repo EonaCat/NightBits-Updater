@@ -1,0 +1,3 @@
+<!-- ConfigurationFile for the NightBits Updater - NightBits (Jeroen Saey) -->
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ApplicationVersion="1.0.0" ProductURL="https://dl.dropboxusercontent.com/u/50041358/NightBitsUpdater/Version1/Release%20notes.html" RemoteUpdateFile="" UpdateVersion="1.0.1" />

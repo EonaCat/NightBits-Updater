@@ -1,0 +1,16 @@
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\bin\Debug\NightBits Updater.exe.config
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\bin\Debug\NightBits Updater.exe
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\bin\Debug\NightBits Updater.pdb
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\bin\Debug\NightBitsUpdater.dll
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\bin\Debug\NightBitsLibrary.dll
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\bin\Debug\NightBitsLogger.dll
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\bin\Debug\NightBitsUpdater.pdb
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\bin\Debug\NightBitsLibrary.pdb
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\bin\Debug\NightBitsLogger.pdb
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\bin\Debug\NightBitsLogger.xml
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\obj\Debug\NightBitsUpdaterExe.csprojResolveAssemblyReference.cache
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\obj\Debug\NightBitsUpdaterExe.NightBitsUpdaterExe.resources
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\obj\Debug\NightBitsUpdaterExe.Properties.Resources.resources
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\obj\Debug\NightBitsUpdaterExe.csproj.GenerateResource.Cache
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\obj\Debug\NightBits Updater.exe
+J:\Programming\C#\NightBitsUpdater\NightBitsUpdaterExe\obj\Debug\NightBits Updater.pdb

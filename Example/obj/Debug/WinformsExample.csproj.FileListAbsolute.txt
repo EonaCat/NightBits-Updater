@@ -1,0 +1,19 @@
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\Configuration\TestFiles\Local.xml
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\Configuration\TestFiles\Update.xml
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\Configuration\TestFiles\UpdateFiles_1_0.xml
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\Winforms Example NightBitsUpdater.exe.config
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\Winforms Example NightBitsUpdater.exe
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\Winforms Example NightBitsUpdater.pdb
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsLibrary.dll
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsUpdater.dll
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsLogger.dll
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsUpdater.pdb
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsLibrary.pdb
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsLogger.pdb
+J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsLogger.xml
+J:\Programming\C#\NightBitsUpdater\Example\obj\Debug\WinformsExample.csprojResolveAssemblyReference.cache
+J:\Programming\C#\NightBitsUpdater\Example\obj\Debug\WinformsExample.NightBitsUpdater.AutoNightBitsUpdater.resources
+J:\Programming\C#\NightBitsUpdater\Example\obj\Debug\WinformsExample.NightBitsUpdater.Properties.Resources.resources
+J:\Programming\C#\NightBitsUpdater\Example\obj\Debug\WinformsExample.csproj.GenerateResource.Cache
+J:\Programming\C#\NightBitsUpdater\Example\obj\Debug\Winforms Example NightBitsUpdater.exe
+J:\Programming\C#\NightBitsUpdater\Example\obj\Debug\Winforms Example NightBitsUpdater.pdb

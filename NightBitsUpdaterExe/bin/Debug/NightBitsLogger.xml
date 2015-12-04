@@ -1,0 +1,2478 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NightBitsLogger</name>
+    </assembly>
+    <members>
+        <member name="T:NightBitsLogger.Configuration.CollectionOfElements`1">
+             <summary>
+             This class is an abstract class for a Collection of Config Elements
+             </summary>
+             <typeparam name="T"></typeparam>
+            
+        </member>
+        <member name="M:NightBitsLogger.Configuration.CollectionOfElements`1.CreateNewElement">
+            <summary>
+            Create and return a new Configuration Element
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.Configuration.CollectionOfElements`1.GetElementKey(System.Configuration.ConfigurationElement)">
+            <summary>
+            Return the element key.
+            </summary>
+            <param name="element"></param>
+            <returns>(ConfigurationElement)key</returns>
+        </member>
+        <member name="M:NightBitsLogger.Configuration.CollectionOfElements`1.Add(`0)">
+            <summary>
+            Add a element to the collection
+            </summary>
+            <param name="collectionOfLoggerElement"></param>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.CollectionOfElements`1.ConfigurationCollection">
+            <summary>
+            Default Accessor for the collections
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.CollectionOfElements`1.Item(System.Int32)">
+            <summary>
+            Return the element with the given index
+            Basic accessor for elements
+            </summary>
+            <param name="index"></param>
+            <returns>[Element]byIndex</returns>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.CollectionOfElements`1.Item(System.String)">
+            <summary>
+            Return the element with the given index
+            </summary>
+            <param name="name"></param>
+            <returns>[Element]byName</returns>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.CollectionOfLoggers">
+            <summary>
+            The CollectionOfLoggers Collection
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.FileLoggers">
+            <summary>
+            The EncryptedLogger Collection
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.RollingDateFileLoggers">
+            <summary>
+            The RollingDateFileLogger Collection
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.RollingSizeFileLoggers">
+            <summary>
+            The RollingSizeFileLogger Collection
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.EmailLoggers">
+            <summary>
+            The EmailLogger Collection
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.SocketLoggers">
+            <summary>
+            The SocketLogger Collection
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.WindowsEventLogLoggers">
+            <summary>
+            The WindowsEventLogLogger Collection
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.ConsoleLoggers">
+            <summary>
+            The ConsoleLogger Collection
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.BaseLogger.Logger">
+            <summary>
+            This abstract class is the base for any Logger and actually logs the logItems itself
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.OnLoggingError(NightBitsLogger.BaseLogger.Logger,System.String,System.Exception)">
+            <summary>
+            Called when an Exception occurs in the logging system
+            </summary>
+            <param name="logger"></param>
+            <param name="information"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.OnLoggingError(System.String,System.Exception)">
+            <summary>
+            This method gets called by Loggers if an error occurs
+            </summary>
+            <param name="information"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.Logger._application">
+            <summary>
+            A String that represents the application
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.Logger._enabled">
+            <summary>
+            A bool that indicates if the Logger is enabled or not
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.Logger._internalLoggingEnabled">
+            <summary>
+             A bool that indicates if the InternalExceptionLogging is enabled or not
+             (If so any exception will be logged to the console)
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.Logger._filter">
+            <summary>
+            The filter through which all LogItems must pass before being logged by the respective Logger.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.Logger._formatter">
+            <summary>
+            A formatter that formats LogItems before being logged by the respective Logger.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.Logger._defaultFormatterClass">
+            <summary>
+            The default class to use for formatting.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.Logger._defaultFilterClass">
+            <summary>
+            The default class to use for filtering.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.#ctor">
+            <summary>
+            Creates an instance of the Logger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.DoLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Log the logItem
+            </summary>
+            <param name="logItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.CreateLogItem(NightBitsLogger.BaseLogger.LogLevel,System.Object,System.Object)">
+            <summary>
+            Creates a logItem
+            </summary>
+            <param name="logLevel"></param>
+            <param name="category"></param>
+            <param name="theObject"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.Log(NightBitsLogger.BaseLogger.LogLevel,System.Object)">
+            <summary>
+            Log the logLevel and the object
+            </summary>
+            <param name="logLevel"></param>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.Log(NightBitsLogger.BaseLogger.LogLevel,System.Object,System.Object)">
+            <summary>
+            Log the logLevel, the category and the object
+            </summary>
+            <param name="logLevel"></param>
+            <param name="category"></param>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.Log(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Log the logItem
+            </summary>
+            <param name="logItem"></param>
+            <returns>(bool)hasLogged</returns>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogCritical(System.Object)">
+            <summary>
+            Create a 'critical' log entry with an object
+            </summary>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogCritical(System.Object,System.Object)">
+            <summary>
+            Create a 'critical' log entry with a category and an object
+            </summary>
+            <param name="category"></param>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogDebug(System.Object)">
+            <summary>
+            Create a 'debug' log entry with an object
+            </summary>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogDebug(System.Object,System.Object)">
+            <summary>
+            Create a 'debug' log entry with a category and an object
+            </summary>
+            <param name="category"></param>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogError(System.Object)">
+            <summary>
+            Create a 'error' log entry with an object
+            </summary>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogError(System.Object,System.Object)">
+            <summary>
+            Create a 'error' log entry with a category and an object
+            </summary>
+            <param name="category"></param>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogFatal(System.Object)">
+            <summary>
+            Create a 'fatal' log entry with an object
+            </summary>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogFatal(System.Object,System.Object)">
+            <summary>
+            Create a 'fatal' log entry with a category and an object
+            </summary>
+            <param name="category"></param>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogInfo(System.Object)">
+            <summary>
+            Create a 'info' log entry with an object
+            </summary>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogInfo(System.Object,System.Object)">
+            <summary>
+            Create a 'info' log entry with a category and an object
+            </summary>
+            <param name="category"></param>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogStatus(System.Object)">
+            <summary>
+            Create a 'status' log entry with an object
+            </summary>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogStatus(System.Object,System.Object)">
+            <summary>
+            Create a 'status' log entry with a category and an object
+            </summary>
+            <param name="category"></param>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogWarning(System.Object)">
+            <summary>
+            Create a 'warning' log entry with an object
+            </summary>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LogWarning(System.Object,System.Object)">
+            <summary>
+            Create a 'warning' log entry with a category and an object
+            </summary>
+            <param name="category"></param>
+            <param name="theObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.GetDefaultFilter">
+            <summary>
+            Create a new filter instance to use for this Logger.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.GetDefaultFormatter">
+            <summary>
+            Create a new formatter instance to use for this Logger.
+            </summary>
+            <returns>(LogItemFormatter)logItemFormatter</returns>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.ShouldLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Check if the logItem should be logged or not
+            </summary>
+            <param name="logItem"></param>
+            <returns>(bool)shouldBeLogged</returns>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.WriteToLog(System.String)">
+            <summary>
+            Write a string to the log
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.Logger.Item(System.Int32)">
+            <summary>
+            Default Accessor
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="E:NightBitsLogger.BaseLogger.Logger.LoggingError">
+            <summary>
+            An event that occurs when an Exception occurs within the logging system.
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.Logger.Version">
+            <summary>
+            Get the version of the NightBitsLogger assembly
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.Logger.Application">
+            <summary>
+            Get or Set the application
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.Logger.Enabled">
+            <summary>
+            Get or Set the state of the Logger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.Logger.InternalLoggingEnabled">
+            <summary>
+            Get or Set the internalExceptionLogging enabled
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.Logger.Filter">
+            <summary>
+            Get or Set the filter that is being used
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.Logger.Formatter">
+            <summary>
+            Get or Set the formatter that is being used
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.Logger.DefaultFormatterClass">
+            <summary>
+            Get or Set the default Formatter Class
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.Logger.DefaultFilterClass">
+            <summary>
+            Get or Set the default Filter Class
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.Logger.LogLevel">
+            <summary>
+            Get or set the logLevel of the filter
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.BaseLogger.Logger.LoggingErrorEventArgs">
+            <summary>
+            This class support any Errors that occur during the logging of a logItem
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.Logger.LoggingErrorEventArgs.LoggingInformation">
+            <summary>
+            A string with Logging information
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.Logger.LoggingErrorEventArgs.Exception">
+            <summary>
+            Contains the current Exception that is thrown by the Logger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.Logger.LoggingErrorEventArgs.#ctor(System.String,System.Exception)">
+            <summary>
+            Creates an instance of the LoggingErrorEvent
+            </summary>
+            <param name="information"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="T:NightBitsLogger.BaseLogger.Logger.LoggingErrorHandler">
+            <summary>
+            A delegate that can be used by classes to trigger the LoggingError event
+            </summary>
+            <param name="information"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.EncryptedLogger">
+            <summary>
+            This logger logs all the log information to a specified file
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.EncryptedLogger._fileName">
+            <summary>
+            The fileName to which this Logger is writing to.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.EncryptedLogger.#ctor">
+            <summary>
+            Creates an instance of the EncryptedLogger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.EncryptedLogger.Finalize">
+            <summary>
+            Destructor for EncryptedLogger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.EncryptedLogger.#ctor(System.String,System.String)">
+            <summary>
+            Creates an instance of the EncryptedLogger and logs to the specified fileName
+            </summary>
+            <param name="fileName"></param>
+            <param name="encryptionKey"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.EncryptedLogger.CreateFileStream">
+            <summary>
+            Create a stream for the file and sets the writeMode to Append
+            </summary>
+            <returns>(FileStream)a new FileStream</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.EncryptedLogger.GetFileStream">
+            <summary>
+            Get a new fileStream (Creates the directories if not found)
+            </summary>
+            <returns>(FileStream)a new FileStream</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.EncryptedLogger.GetStreamWriter">
+            <summary>
+            Create a new StreamWriter to write (Parameterized by the FileStream)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.EncryptedLogger.WriteToLog(System.String)">
+            <summary>
+            Write the message to the streamWriter
+            </summary>
+            <param name="message"></param>
+            <returns>(bool)isWriteSuccessful</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.EncryptedLogger.DecryptAll(System.String)">
+            <summary>
+            Decrypt all text in the Logger
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.EncryptedLogger.EncryptionKey">
+            <summary>
+            Sets the EncryptionKey to be used
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.EncryptedLogger.FileName">
+            <summary>
+            Get or Set the fileName to which this Logger is writing to.
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.MemoryLogger">
+            <summary>
+            Creates a Logger that logs a LogItem into Memory
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.MemoryLogger._maximumSize">
+            <summary>
+            The maximum LogItems to store in memory
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.MemoryLogger._logItemsList">
+            <summary>
+            A List Of all the LogItems
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.MemoryLogger.#ctor">
+            <summary>
+            Creates an instance of the MemoryLogger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.MemoryLogger.Finalize">
+            <summary>
+            Destructor for MemoryLogger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.MemoryLogger.#ctor(System.Int32)">
+            <summary>
+            Create an instance of MemoryLogger.
+            </summary>
+            <param name="size"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.MemoryLogger.#ctor(NightBitsLogger.NightBitsLoggers.MemoryLogger)">
+            <summary>
+            Copy constructor for the class
+            </summary>
+            <param name="memoryLogger"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.MemoryLogger.Clear">
+            <summary>
+            Clear all the LogItems in Memory
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.MemoryLogger.Copy">
+            <summary>
+            Copy a MemoryLogger
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.MemoryLogger.DoLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Store the LogItem in Memory
+            </summary>
+            <param name="logItem"></param>
+            <returns>(bool)true</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.MemoryLogger.GetLog">
+            <summary>
+            Create an Array of LogItem.
+            </summary>
+            <returns>[LogItem]logItemArray</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.MemoryLogger.LogAllTo(NightBitsLogger.BaseLogger.Logger)">
+            <summary>
+            Send all the LogItems to another Logger
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.MemoryLogger.MoveTo(NightBitsLogger.BaseLogger.Logger)">
+            <summary>
+            Move all LogItems to another Logger. A message is send to log the Message and to stop the receiver once in a failure
+            </summary>
+            <param name="logger"></param>
+            <returns>(bool)movedState</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.MemoryLogger.TransferTo(NightBitsLogger.BaseLogger.Logger)">
+            <summary>
+            Transfer all LogItems to another Logger. A message is send to log the Message and to stop the receiver once in a failure
+            </summary>
+            <param name="logger"></param>
+            <returns>(bool)transferedState</returns>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.MemoryLogger.Size">
+            <summary>
+            Get or Set the size limit of the stored LogItems in Memory
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.MemoryLogger.LogItems">
+            <summary>
+            Get or Set the list of logItems for Memory
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.MemoryLogger.Count">
+            <summary>
+            Get the current amount of LogItems held by the MemoryLogger
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemFormatter">
+            <summary>
+            Abstract class that is responsibly for formatting the LogItem/Logger
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItemFormatter._formatString">
+            <summary>
+             A format String for DateTime.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemFormatter.AsString(NightBitsLogger.Items.LogItem)">
+            <summary>
+            String format of the LogItem.
+            </summary>
+            <param name="logItem"></param>
+            <returns>(String)formatted String</returns>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemFormatter.DateString(NightBitsLogger.Items.LogItem)">
+            <summary>
+            String format of the DateTime of the LogItem.
+            </summary>
+            <param name="logItem"></param>
+            <returns>(String)DateTime as string</returns>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemFormatter.#ctor(NightBitsLogger.BaseLogger.Logger.LoggingErrorHandler)">
+            <summary>
+            Creates an instance of the LogItemFormatter
+            </summary>
+            <param name="loggingErrorHandler"></param>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItemFormatter.LoggingErrorHandler">
+            <summary>
+             A delegate used to trigger the LoggingError event in a Logger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItemFormatter.FormatString">
+            <summary>
+            Get or Set the formatString
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemStandardFormatter">
+            <summary>
+            This formatter is the default one that formats all LogItem information
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemStandardFormatter.AsString(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Create a formatted String that contains all the LogItem information.
+            </summary>
+            <param name="logItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemStandardFormatter.#ctor(NightBitsLogger.BaseLogger.Logger.LoggingErrorHandler)">
+            <summary>
+            Creates an instance of the LogItemStandardFormatter
+            </summary>
+            <param name="loggingErrorHandler"></param>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemMessageOnlyFormatter">
+            <summary>
+            This class formats the message of the LogItem (ignoring all other information within the LogItem)
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemMessageOnlyFormatter.AsString(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Returns the Message of the LogItem
+            </summary>
+            <param name="logItem"></param>
+            <returns>(String)LogItem.Message</returns>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemMessageOnlyFormatter.#ctor(NightBitsLogger.BaseLogger.Logger.LoggingErrorHandler)">
+            <summary>
+            Creates an instance of the LogItemMessageOnlyFormatter
+            </summary>
+            <param name="loggingErrorHandler"></param>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.SerialLogger">
+            <summary>
+            This class can be used to write serialized logItems to the outputStream
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.SerialLogger._serialFormatter">
+            <summary>
+            A formatter for writing to the stream.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.SerialLogger._outputStream">
+            <summary>
+            The stream to which the SerialLogger logs.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.SerialLogger.#ctor">
+            <summary>
+            Create a new instance of SerialLogger.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.SerialLogger.#ctor(System.IO.Stream)">
+            <summary>
+            Create a new instance of SerialLogger.
+            </summary>
+            <param name="outputStream"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.SerialLogger.Finalize">
+            <summary>
+            Destructor for the SerialLogger.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.SerialLogger.DoLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Write the LogItem to the stream.
+            </summary>
+            <param name="logItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.SerialLogger.HandleLogFailure(NightBitsLogger.Items.LogItem,System.Exception)">
+            <summary>
+            Do something if the Log to the stream has failed
+            </summary>
+            <param name="logItem"></param>
+            <param name="exception"></param>
+            <returns>(bool)isHandled</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.SerialLogger.TryToLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Attempt to write the LogItem to the stream.
+            </summary>
+            <param name="logItem"></param>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.SerialLogger.SerialFormatter">
+            <summary>
+            Get or Set the serialFormatter
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.SerialLogger.OutputStream">
+            <summary>
+            Get or Set the outputStream
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.SerialSocketLogger">
+            <summary>
+            This class can be used to write serialized logItems to the Socket
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.SerialSocketLogger._tcpClient">
+            <summary>
+            TCPClient used for the SerialSocketLogger
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.SerialSocketLogger._hostName">
+            <summary>
+            The name of the remote host to which the receiver is logging.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.SerialSocketLogger._port">
+            <summary>
+            The port number of the socket.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.SerialSocketLogger.#ctor">
+            <summary>
+            Create a new instance of SerialSocketLogger.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.SerialSocketLogger.#ctor(System.String,System.Int32)">
+            <summary>
+            Create a new instance of SerialSocketLogger.
+            </summary>
+            <param name="hostName"></param>
+            <param name="port"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.SerialSocketLogger.HandleLogFailure(NightBitsLogger.Items.LogItem,System.Exception)">
+            <summary>
+            Reset the socket and try one more time
+            </summary>
+            <param name="logItem"></param>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.SerialSocketLogger.ResetSocket">
+            <summary>
+            Reset the Socket
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.SerialSocketLogger.TryToResetSocket">
+            <summary>
+            Try to Reset the Socket
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.SerialSocketLogger.TcpClient">
+            <summary>
+            Get or Set the TCP client
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.SerialSocketLogger.HostName">
+            <summary>
+            Get or Set the remote HostName
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.SerialSocketLogger.Port">
+            <summary>
+            Get or Set the Port
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.WindowsEventLogLogger">
+            <summary>
+            This logger writes to the Windows Event Log
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.WindowsEventLogLogger._eventLog">
+            <summary>
+            The Windows Event Log
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.WindowsEventLogLogger.DoLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Writes the logItem to the Windows Event Log
+            </summary>
+            <param name="logItem"></param>
+            <returns>(bool)didWriteState</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.WindowsEventLogLogger.#ctor">
+            <summary>
+            Creates an instance of the WindowsEventLogLogger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.WindowsEventLogLogger.#ctor(System.Diagnostics.EventLog)">
+            <summary>
+            Create a new instance of WindowsEventLogLogger with a given EventLog
+            </summary>
+            <param name="eventLog"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.WindowsEventLogLogger.GetDefaultFormatter">
+            <summary>
+            Get the defaultFormatter that is used for the WindowsEventLogLogger
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.WindowsEventLogLogger.EventLog">
+            <summary>
+            Get or Set the Windows Event Log
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.EmailLogger">
+            <summary>
+            This logger emails the log information to a specified emailAddress
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.EmailLogger._from">
+            <summary>
+            Contains the "from" emailAddress field for the email
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.EmailLogger._to">
+            <summary>
+            Contains the "to" emailAddress field for the email
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.EmailLogger._subject">
+            <summary>
+            Contains the "subject" field for the email
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.EmailLogger._smtpClient">
+            <summary>
+            The SMTP client that is used to send the email to the server
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.EmailLogger.#ctor(System.Net.Mail.SmtpClient,System.String,System.String)">
+            <summary>
+            Creates an instance of the EmailLogger and sets the from, to and smtpClient fields
+            </summary>
+            <param name="smtpClient"></param>
+            <param name="from"></param>
+            <param name="to"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.EmailLogger.#ctor(System.Net.Mail.SmtpClient,System.String,System.String,System.String)">
+            <summary>
+            Creates an instance of the EmailLogger and sets the from, to and subject fields
+            </summary>
+            <param name="smtpClient"></param>
+            <param name="from"></param>
+            <param name="to"></param>
+            <param name="subject"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.EmailLogger.DoLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Sends an email that represents the logItem
+            </summary>
+            <param name="logItem"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.EmailLogger.From">
+            <summary>
+            Gets and sets the "from" emailAddress field for the email.
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.EmailLogger.To">
+            <summary>
+            Get or Set the "to" emailAddress field for the email.
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.EmailLogger.Subject">
+            <summary>
+            Get or Set the "subject" field for the email.
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.EmailLogger.SmtpClient">
+            <summary>
+            Get or Set the SmtpClient
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Interfaces.ILogSocketReaderReceiver">
+            <summary>
+            Anyone who implements this interface will get notification if the Reader is ready and the socket connection is setup
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Interfaces.ILogSocketReaderReceiver.ListenerClosed">
+            <summary>
+            A notification that the listener has stopped listening.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Interfaces.ILogSocketReaderReceiver.ReaderReady(NightBitsLogger.BaseLogger.LogSocketReader)">
+            <summary>
+            Notification that is send when connections can be accepted and the SocketReader is ready
+            <notice>Return true if multiple connections can be made to the SocketReader</notice>>
+            </summary>
+            <param name="logSocketReader"></param>
+            <returns>(bool)indication if more connections are accepted</returns>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory">
+            <summary>
+            This class is used to create instances of the LogReceiverLogger's subclass when socket connections are made to the client
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory._loggerType">
+            <summary>
+            The Type of the Logger this instance should create.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory._informationForNewLogger">
+            <summary>
+            Any information that needs to be passed to newly created Loggers.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory._listener">
+            <summary>
+            The Listener that listens for new socket connections.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory.#ctor(System.Type,System.Int32,System.Object)">
+            <summary>
+            Create a new instance of LogReceiverLoggerFactory.
+            </summary>
+            <param name="loggerType"></param>
+            <param name="portNumber"></param>
+            <param name="informationForNewLogger"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory.CheckLoggerType(System.Type)">
+            <summary>
+            Checks if a loggerType is a subType of the LogReceiverLogger
+            </summary>
+            <param name="loggerType"></param>
+            <exception>Throws a InvalidReceiverLoggerException if the type is invalid</exception>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory.StopListening">
+            <summary>
+            Stop listening for receivers
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory.ListenerClosed">
+            <summary>
+            Notification that the socket has been closed
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory.ReaderReady(NightBitsLogger.BaseLogger.LogSocketReader)">
+            <summary>
+            Notification that the socket connection has been opened and can be used accordingly
+            </summary>
+            <param name="logSocketReader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory.CreateNewLogger(NightBitsLogger.BaseLogger.LogSocketReader)">
+            <summary>
+            Create and initialize a new Logger.
+            </summary>
+            <param name="logSocketReader"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory.InvalidReceiverLoggerException">
+            <summary>
+            An Exception class thrown when an invalid Logger is used with LogReceiverLoggerFactory.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory.InvalidReceiverLoggerException.#ctor(System.Type)">
+            <summary>
+            Create a new instance of InvalidReceiverLoggerException.
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.CollectionOfLoggers">
+            <summary>
+            A CollectionOfLoggers contains other Logger instances.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.CollectionOfLoggers._loggers">
+            <summary>
+            A hashTable that holds all the loggers that are created
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.CollectionOfLoggers.AddLogger(System.String,NightBitsLogger.BaseLogger.Logger)">
+            <summary>
+            Add a Logger to this CollectionOfLoggers.
+            </summary>
+            <param name="name"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.CollectionOfLoggers.RemoveLogger(System.String)">
+            <summary>
+            Remove a Logger
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.CollectionOfLoggers.DoLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Send the log message to the created loggers.
+            </summary>
+            <param name="logItem"></param>
+            <returns>(bool)true</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.CollectionOfLoggers.FindLogger(System.String)">
+            <summary>
+            Search for the first logger in the loggerCollection (also recursive in childs) and returns it
+            </summary>
+            <param name="name"></param>
+            <returns>(Logger)logger</returns>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.CollectionOfLoggers.Loggers">
+            <summary>
+            Gets and sets the Collection of Loggers as a hashTable.
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.CollectionOfLoggers.Item(System.String)">
+            <summary>
+            Gets the Logger with the name corresponding to the given String.
+            </summary>
+            <param name="name"></param>
+            <returns>(Logger)logger</returns>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.LogReceiverLogger">
+            <summary>
+            This class is used as a base class for Loggers that can receive LogItems over a socket.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.LogReceiverLogger._placeHolderObject">
+            <summary>
+            This is a placeholder for any Object a newly created instance of this class needs access.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.LogReceiverLogger._logSocketReader">
+            <summary>
+            The LogSocketReader that is used to read LogItems from the Socket.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.LogReceiverLogger.PreStart(NightBitsLogger.NightBitsLoggers.LogReceiverLoggerFactory)">
+            <summary>
+            This called by an instance of LogReceiverLoggerFactory just prior to the LogSocketReader starting to read LogItems from the Socket.
+            </summary>
+            <param name="factory"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.LogReceiverLogger.PreStart">
+            <summary>
+            This called by PreStart(LogReceiverLoggerFactory) just prior to the LogSocketReader starting to read LogItems from the Socket.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.LogReceiverLogger.#ctor(NightBitsLogger.BaseLogger.LogSocketReader,System.Object)">
+            <summary>
+            Creates an instance of the LogReceiverLogger specfied by a logSocketReader and placeHolderObject
+            </summary>
+            <param name="logSocketReader"></param>
+            <param name="placeHolderObject"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.LogReceiverLogger.#ctor">
+            <summary>
+            Creates an instance of the LogReceiverLogger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.LogReceiverLogger.PlaceHolderObject">
+            <summary>
+            Get or Set a PlaceHolderObject
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.LogReceiverLogger.LogSocketReader">
+            <summary>
+            Get or Set a LogSocketReader
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger">
+            <summary>
+            With this Logger you can wrap any logger around this one to create a retry logging mechanism. If the wrapped logger fails to successfully log the logItem, then this instance will keep re-trying to log the logItem.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger._logger">
+            <summary>
+            The logger that needs to be wrapped
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger._memoryLogger">
+            <summary>
+            A MemoryLogger to store the logItems (If we dont have a logger yet)
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger._intervalSeconds">
+            <summary>
+            Holds the interval to retry the write events
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger._retryThread">
+            <summary>
+            Holds the thread for the KeepLoggingLogger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.#ctor">
+            <summary>
+            Creates an instance of the KeepLoggingLogger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.#ctor(NightBitsLogger.BaseLogger.Logger,System.Int32,System.Int32)">
+            <summary>
+            Creates an instance of the KeepLoggingLogger
+            </summary>
+            <param name="logger"></param>
+            <param name="capacity"></param>
+            <param name="retryIntervalInSeconds"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.DoLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Send LogItem to the ActiveLogger
+            </summary>
+            <param name="logItem"></param>
+            <returns>(bool)activeLoggerLoggingState</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.HandleLogFailure(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Send the LogItem to the MemoryLogger and start the retry-thread.
+            </summary>
+            <param name="logItem"></param>
+            <returns>(bool)true</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.StartRetryThread">
+            <summary>
+            Start the retry-thread.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.StopRetryThread">
+            <summary>
+            Stop the retry-thread.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.TryLogging">
+            <summary>
+            Attempt to send the LogItems in the MemoryLogger to the desired Logger.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.Transfer">
+            <summary>
+            Attempt to transfer the stored LogItems in the MemoryLogger to the proper Logger.
+            </summary>
+            <returns>(bool)transferState</returns>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.Logger">
+            <summary>
+            Get or Set the Logger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.MemoryLogger">
+            <summary>
+            Get or Set the MemoryLogger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.IntervalSeconds">
+            <summary>
+            Get or Set the interval in seconds
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.RetryThread">
+            <summary>
+            Get or Set the thread
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.KeepLoggingLogger.ActiveLogger">
+            <summary>
+            Get the currently active Logger
+            <returns>(Logger)currentlyActiveLogger</returns>
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.DelegateLogger">
+            <summary>
+            This logger can delegate log events to different loggers
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.DelegateLogger.#ctor(NightBitsLogger.NightBitsLoggers.DelegateLogger.DoLogDelegate)">
+            <summary>
+            Creates a delegateLogger with the specified logging delegate
+            </summary>
+            <param name="doLogDelegate"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.DelegateLogger.#ctor(NightBitsLogger.NightBitsLoggers.DelegateLogger.WriteToLogDelegate)">
+            <summary>
+            Creates a delegateLogger that writes to the specified logging delegate
+            </summary>
+            <param name="writeToLogDelegate"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.DelegateLogger.DoLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Logs the specified logItem to the (delegate) logger
+            </summary>
+            <param name="logItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.DelegateLogger.WriteToLog(System.String)">
+            <summary>
+            Write the specified message to the (delegate) logger
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.DelegateLogger.DoLogDelegate">
+            <summary>
+            Represents the DoLogDelegate that contains a logItem
+            </summary>
+            <param name="logItem"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.DelegateLogger.WriteToLogDelegate">
+            <summary>
+            Represents the DoLogDelegate that contains a message
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NightBitsLogger.TestModule.Tester">
+            <summary>
+            This class can be used to Test the Loggers
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.TestModule.Tester._allLoggerTesters">
+            <summary>
+            Holds a list of all the running testers
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.TestModule.Tester._logger">
+            <summary>
+            Holds the Logger to which the test is logging
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.TestModule.Tester._logLevel">
+            <summary>
+            Holds the logLevel for the Logger to which the test is logging
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.TestModule.Tester._category">
+            <summary>
+            Holds the category for the Logger to which the test is logging
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.TestModule.Tester._logItem">
+            <summary>
+            Holds the logItems-object for the Logger to which the test is logging
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.TestModule.Tester._thread">
+            <summary>
+            Holds the thread for the Logger to which the test is logging
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.TestModule.Tester.#ctor(NightBitsLogger.BaseLogger.Logger,NightBitsLogger.BaseLogger.LogLevel,System.Object,System.Object)">
+            <summary>
+            Creates an instance of the Tester
+            </summary>
+            <param name="logger"></param>
+            <param name="logLevel"></param>
+            <param name="category"></param>
+            <param name="logItem"></param>
+        </member>
+        <member name="M:NightBitsLogger.TestModule.Tester.Start">
+            <summary>
+            Starts the logging thread
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.TestModule.Tester.Stop">
+            <summary>
+            Stops the logging thread
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.TestModule.Tester.Run">
+            <summary>
+            The runloop for the Thread
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.TestModule.Tester.TestAllLogLevels(NightBitsLogger.BaseLogger.Logger)">
+            <summary>
+            Create a tester for each LogLevel and start the logging.
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:NightBitsLogger.TestModule.Tester.TestAllLogLevels(NightBitsLogger.BaseLogger.Logger,System.Object)">
+            <summary>
+            Create a tester for a category and start the logging.
+            </summary>
+            <param name="logger"></param>
+            <param name="category"></param>
+        </member>
+        <member name="M:NightBitsLogger.TestModule.Tester.TestAllLogLevels(NightBitsLogger.BaseLogger.Logger,System.Object[])">
+            <summary>
+            Create a tester for each specified category and start the logging.
+            </summary>
+            <param name="logger"></param>
+            <param name="categories"></param>
+        </member>
+        <member name="M:NightBitsLogger.TestModule.Tester.StopAll">
+            <summary>
+            Stop all the Tests that are currently running
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.DebugLogger">
+            <summary>
+            The DebugLogger encapsulates logging to the function 'System.Diagnostics.Debug' represented as a Logger.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.DebugLogger.#ctor">
+            <summary>
+            Creates an instance of the DebugLogger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.DebugLogger.Finalize">
+            <summary>
+            Destructor for DebugLogger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.DebugLogger.DoLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Sends a logItem to the function 'System.Diagnostics.Debug'.
+            </summary>
+            <param name="logItem"></param>
+            <returns>(bool)creationState</returns>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.TraceLogger">
+            <summary>
+            This logger writes to the System.Diagnostics.Trace as a Logger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.TraceLogger.DoLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Send LogItem information to System.Diagnostics.Trace.
+            </summary>
+            <param name="logItem"></param>
+            <returns>(bool)isWritten</returns>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItem">
+            <summary>
+            Represents a logItem => This item gets logged by the Logger
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItem._message">
+            <summary>
+            The message of the LogItem
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItem._date">
+            <summary>
+            The timestamp of the LogItem that represents the creation time
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItem._application">
+            <summary>
+            An optional String that represents the application that generated the LogItem.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItem._logLevel">
+            <summary>
+            The loglevel of the LogItem.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItem._category">
+            <summary>
+            An optional "category" that can be used to further classify a LogItem.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItem._internalLoggingEnabled">
+            <summary>
+            A bool that states if the internalExceptionLogging is enabled
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItem.#ctor">
+            <summary>
+            Creates an instance of the LogItem
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItem.#ctor(NightBitsLogger.BaseLogger.LogLevel,System.String,System.Object,System.String)">
+            <summary>
+            Creates an instance of the LogItem that holds the LogLevel, Application, category and the message (The date will be set to the current DateTime)
+            </summary>
+            <param name="logLevel"></param>
+            <param name="application"></param>
+            <param name="category"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItem.#ctor(NightBitsLogger.BaseLogger.LogLevel,System.String,System.Object,System.String,System.DateTime)">
+            <summary>
+            Creates an instance of the LogItem that holds the LogLevel, Application, category, message and the date
+            </summary>
+            <param name="logLevel"></param>
+            <param name="application"></param>
+            <param name="category"></param>
+            <param name="message"></param>
+            <param name="date"></param>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItem.ToString">
+            <summary>
+            Represent the LogItem as a String.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItem.InternalLoggingEnabled">
+            <summary>
+            Get or Set the internalExceptionLogging enabled
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItem.Application">
+            <summary>
+            Get or Set the application
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItem.Category">
+            <summary>
+            Get or Set the category
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItem.Date">
+            <summary>
+            Get or Set the dateTime
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItem.Message">
+            <summary>
+            Get or Set the message
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItem.LogLevel">
+            <summary>
+            Get or Set the LogLevel
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItem.LogLevelString">
+            <summary>
+            Get a string that represents the LogLevel
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.AsynchronousLogger">
+            <summary>
+            An AsynchronousLogger instance can wrap any other logger, causing log entries to be written asynchronously in a background thread
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.AsynchronousLogger._threadName">
+            <summary>
+            Here you can specify the name of the thread
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.AsynchronousLogger.#cctor">
+            <summary>
+            Creates the asynchronous logger and starts the log workingThread
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.AsynchronousLogger.LogWorker">
+            <summary>
+            This function represents the log workingThread
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.AsynchronousLogger.#ctor(NightBitsLogger.BaseLogger.Logger)">
+            <summary>
+            Creates an instance of the AsynchronousLogger
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.AsynchronousLogger.DoLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Log the logItem to the logging by adding it to the queue
+            </summary>
+            <param name="logItem"></param>
+            <returns>(bool) true</returns>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.AsynchronousLogger._Thread">
+            <summary>
+            Creates a thread that runs in the background to hold the background task
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.AsynchronousLogger._AutoResetEvent">
+            <summary>
+            Get or Set a autoResetEvent that notifies a waiting thread that an event has occured
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.AsynchronousLogger._LogQueue">
+            <summary>
+            Get or Set a logging queue
+            <Param>Logger</Param>>
+            <Param>LogItem</Param>>
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.AsynchronousLogger.InnerLogger">
+            <summary>
+            Get or Set the logger inside the class
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.BaseLogger.LogSocketReader">
+            <summary>
+            Read the LogItems from the socket and logs them to their respective Loggers
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.LogSocketReader._socket">
+            <summary>
+            The client Socket.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.LogSocketReader._logger">
+            <summary>
+            The Logger.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.LogSocketReader._thread">
+            <summary>
+            The Thread used for reading.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.#ctor">
+            <summary>
+            Create a new instance of LogSocketReader.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.#ctor(System.Net.Sockets.Socket)">
+            <summary>
+            Create a new instance of LogSocketReader.
+            </summary>
+            <param name="socket"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.#ctor(System.Net.Sockets.Socket,NightBitsLogger.BaseLogger.Logger)">
+            <summary>
+            Create a new instance of LogSocketReader.
+            </summary>
+            <param name="socket"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.ProcessLogItem(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Log the LogItem.
+            </summary>
+            <param name="logItem"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.ReaderClosed">
+            <summary>
+            A notification that the reader has been closed.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.Run">
+            <summary>
+            The function for the thread
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.HandleIncompatibleLogItem(System.Object)">
+            <summary>
+            Handle exceptions due to LogItem incompatibilities.
+            </summary>
+            <param name="objectFromStream"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.StartListening(System.Int32,NightBitsLogger.Interfaces.ILogSocketReaderReceiver)">
+            <summary>
+            Create a new Listener and start listening on the port.
+            </summary>
+            <param name="port"></param>
+            <param name="logSocketReaderReceiver"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.StartListening(System.Net.IPAddress,System.Int32,NightBitsLogger.Interfaces.ILogSocketReaderReceiver)">
+            <summary>
+            Create a new Listener and start listening on the port.
+            </summary>
+            <param name="ipAddress"></param>
+            <param name="port"></param>
+            <param name="logSocketReaderReceiver"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.Start">
+            <summary>
+            Start the Thread
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.Stop">
+            <summary>
+            Stop the Thread
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.LogSocketReader.Socket">
+            <summary>
+            Get or Set a Socket
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.LogSocketReader.Logger">
+            <summary>
+            Get or Set a Logger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.LogSocketReader.Thread">
+            <summary>
+            Get or Set a thread
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.LogSocketReader.RemoteAddress">
+            <summary>
+            Get a String representation of the remote endpoint address with its port
+            <returns>(String)endPointAddress</returns>>.
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.BaseLogger.LogSocketReader.Listener">
+            <summary>
+            Inner class used for listening for connections.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.Listener.#ctor(System.Int32,NightBitsLogger.Interfaces.ILogSocketReaderReceiver)">
+            <summary>
+             Create a new instance of Listener listening on any IP address
+            </summary>
+            <param name="port"></param>
+            <param name="logSocketReaderReceiver"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.Listener.#ctor(System.Net.IPAddress,System.Int32,NightBitsLogger.Interfaces.ILogSocketReaderReceiver)">
+            <summary>
+            Create a new instance of Listener.
+            </summary>
+            <param name="ipAddress"></param>
+            <param name="port"></param>
+            <param name="logSocketReaderReceiver"></param>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.Listener.GetReader">
+            <summary>
+            Get the LogSocketReader
+            </summary>
+            <returns>(LogSocketReader)currentLogSocketReader</returns>
+            <notice>Can return null if no LogSocketReader can be found</notice>>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.Listener.Run">
+            <summary>
+            The thread function that listens for new connections
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.BaseLogger.LogSocketReader.Listener.Stop">
+            <summary>
+            Stop listening on the port.
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.LogSocketReader.Listener.IpAddress">
+            <summary>
+            Get or Set the ipAddress
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.LogSocketReader.Listener.Port">
+            <summary>
+            Get or Set the Port
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.LogSocketReader.Listener.TcpListener">
+            <summary>
+            Get or Set the TCPListener
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.LogSocketReader.Listener.LogSocketReaderReceiver">
+            <summary>
+            Get or Set the LogSocketReaderReceiver
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.BaseLogger.LogSocketReader.Listener.Thread">
+            <summary>
+            Get or Set the thread
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.TextWriterLogger">
+            <summary>
+            This logger writes to a TextWriter
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.TextWriterLogger._textWriter">
+            <summary>
+            The TextWriter to which LogItems are written.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.TextWriterLogger.WriteToLog(System.String)">
+            <summary>
+            Write the message to the log
+            </summary>
+            <param name="message"></param>
+            <returns>(bool)isWritten</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.TextWriterLogger.#ctor">
+            <summary>
+            Create a new instance of TextWriterLogger.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.TextWriterLogger.#ctor(System.IO.TextWriter)">
+            <summary>
+            Create a new instance of TextWriterLogger with a given textWriter
+            </summary>
+            <param name="textWriter"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.TextWriterLogger.NewConsoleLogger">
+            <summary>
+            Create a TextWriterLogger that writes to the Console by using the 'System.Console' function
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.TextWriterLogger.TextWriter">
+            <summary>
+            Get or Set the TextWriter
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemFilter">
+            <summary>
+            Abstract class that holds the base for a LogItem Filter
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItemFilter._logLevel">
+            <summary>
+            The lowest loglevel of a LogItem that will pass this filter.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemFilter.IsAllowedToPass(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Determine if a LogItem can pass the Filters
+            </summary>
+            <param name="logItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemFilter.ShouldLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Test to determine if LogItem should be logged.
+            </summary>
+            <param name="logItem"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItemFilter.LogLevel">
+            <summary>
+            Get or Set the LogLevel
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemCategoryFilter">
+            <summary>
+            This class can filer LogItems based on their category
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItemCategoryFilter._categories">
+            <summary>
+            A Collection of categories.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItemCategoryFilter._allow">
+            <summary>
+            A bool that indicates if the category is allowed or not
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemCategoryFilter.#ctor">
+            <summary>
+            Creates an instance of the LogItemCategoryFilter
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemCategoryFilter.#ctor(System.Boolean)">
+            <summary>
+            Creates an instance of the LogItemCategoryFilter and set the allowence of the category
+            </summary>
+            <param name="allowence"></param>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemCategoryFilter.AddCategory(System.Object)">
+            <summary>
+            Add a category to the filter.
+            </summary>
+            <param name="category"></param>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemCategoryFilter.RemoveCategory(System.Object)">
+            <summary>
+            Remove a category from the filter.
+            </summary>
+            <param name="category"></param>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemCategoryFilter.IsAllowedToPass(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Determine if a LogItem "passes" through the filter.
+            </summary>
+            <param name="aLogItem"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItemCategoryFilter.Allow">
+            <summary>
+            Get or Set the allowence of a category
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItemCategoryFilter.Categories">
+            <summary>
+            Get or Set the Categories
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.FileLogger">
+            <summary>
+            This logger logs all the log information to a specified file
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.FileLogger._fileName">
+            <summary>
+            The fileName to which this Logger is writing to.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.FileLogger.#ctor">
+            <summary>
+            Creates an instance of the FileLogger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.FileLogger.Finalize">
+            <summary>
+            Destructor for FileLogger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.FileLogger.#ctor(System.String)">
+            <summary>
+            Creates an instance of the FileLogger and logs to the specified fileName
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.FileLogger.CreateFileStream">
+            <summary>
+            Create a stream for the file and sets the writeMode to Append
+            </summary>
+            <returns>(FileStream)a new FileStream</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.FileLogger.GetFileStream">
+            <summary>
+            Get a new fileStream (Creates the directories if not found)
+            </summary>
+            <returns>(FileStream)a new FileStream</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.FileLogger.GetStreamWriter">
+            <summary>
+            Create a new StreamWriter to write (Parameterized by the FileStream)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.FileLogger.WriteToLog(System.String)">
+            <summary>
+            Write the message to the streamWriter
+            </summary>
+            <param name="message"></param>
+            <returns>(bool)isWriteSuccessful</returns>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.FileLogger.FileName">
+            <summary>
+            Get or Set the fileName to which this Logger is writing to.
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.BaseLogger.LogLevel">
+            <summary>
+            Represents the LogLevel a Logger can have
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.LogLevel.Debug">
+            <summary>
+            Debug LogLevel
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.LogLevel.Info">
+            <summary>
+            Info LogLevel
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.LogLevel.Status">
+            <summary>
+            Status LogLevel
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.LogLevel.Warning">
+            <summary>
+            Warning LogLevel
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.LogLevel.Error">
+            <summary>
+            Error LogLevel
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.LogLevel.Critical">
+            <summary>
+            Critical LogLevel
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.BaseLogger.LogLevel.Fatal">
+            <summary>
+            Fatal LogLevel
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.RollingFileLogger">
+            <summary>
+            RollingFileLogger can be used to automatically roll-over files. New LogFiles are created and the old files are kept
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.RollingFileLogger._fileRollOverStrategy">
+            <summary>
+            The FileRollOverStrategy that is used for the RollingFileLogger
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.DoLog(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Log a LogItem to the Logger
+            </summary>
+            <param name="logItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.#ctor(NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverStrategy)">
+            <summary>
+            Instantiate a new RollingFileLogger with the given RollOverStrategy
+            </summary>
+            <param name="rollOverStrategy"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.NewRollingDateFileLogger(System.String)">
+            <summary>
+            Create and return a new RollingFileLogger that rolls over according to the current date.
+            </summary>
+            <param name="fullPathFormatString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.NewRollingFileLogger(System.String)">
+            <summary>
+            Create and return a new RollingFileLogger that rolls over according to the format string
+            </summary>
+            <param name="fullPathFormatString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.NewRollingSizeFileLogger(System.String,System.Int64)">
+            <summary>
+            Create and return a new RollingFileLogger that rolls over according to the size of the log file
+            </summary>
+            <param name="fullPathFormatString"></param>
+            <param name="maxSize"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverStrategy">
+            <summary>
+            RollOverStrategy is an abstract class that defines the functionality that is required by a RollingFileLogger to roll-over.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverStrategy.FileNameFormatString">
+            <summary>
+            The format string used to generate the log file name
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverStrategy.#ctor(System.String)">
+            <summary>
+            Instantiate a RollOverStrategy providing a string looking like "c:\SomeDirectoryPath\SomeFileName{0}.log"
+            </summary>
+            <param name="fullPathFormatString"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverStrategy.ValidateFormatString(System.String)">
+            <summary>
+            Validate the format of the file name
+            </summary>
+            <param name="fileNameFormatString"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverStrategy.GetFileName(NightBitsLogger.Items.LogItem,System.String)">
+            <summary>
+            Return the name of the log file
+            </summary>
+            <param name="logItem"></param>
+            <param name="formattedLogString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverStrategy.GetIncrementalName(NightBitsLogger.Items.LogItem,System.String)">
+            <summary>
+            Return the variable portion of the name of the log file
+            </summary>
+            <param name="logItem"></param>
+            <param name="formattedLogString"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverStrategy.LoggingErrorHandler">
+            <summary>
+            A deleate used to trigger the LoggingError event in a logger
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverFormatStrategy">
+            <summary>
+            This class is a replacement for RollOverDateStrategy using a format string like "NightBitsLogger_{timestamp:yyyyMMdd}.log"
+            This class can be used to put LogItems of different categories into different files by using a format string like: "NightBitsLogger_{category}.log"
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverFormatStrategy.GetFileName(NightBitsLogger.Items.LogItem,System.String)">
+            <summary>
+            Return the name of the file
+            </summary>
+            <param name="logItem"></param>
+            <param name="formattedLogString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverFormatStrategy.GetIncrementalName(NightBitsLogger.Items.LogItem,System.String)">
+            <summary>
+            Get the inrementalName of the Logger
+            This class does nothing within this Logger
+            </summary>
+            <param name="logItem"></param>
+            <param name="formattedLogString"></param>
+            <returns>(String)""</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverFormatStrategy.ValidateFormatString(System.String)">
+            <summary>
+            Validate the format of the FileNameFormatString
+            This class does nothing within this Logger
+            </summary>
+            <param name="fileNameFormatString"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverFormatStrategy.#ctor(System.String)">
+            <summary>
+            Instantiate a RollOverFormatStrategy
+            </summary>
+            <param name="fullPathFormatString"></param>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverDateStrategy">
+            <summary>
+            RollOverDateStrategy provides date-based roll-over functionality.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverDateStrategy.ValidateFormatString(System.String)">
+            <summary>
+            Validate the format of the FileNameFormatString
+            </summary>
+            <param name="fileNameFormatString"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverDateStrategy.#ctor(System.String)">
+            <summary>
+            Create a new RollOverDateStrategy
+            </summary>
+            <param name="fullPathFormatString"></param>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverSizeStrategy">
+            <summary>
+            RollOverSizeStrategy provides log file size-based roll-over functionality
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverSizeStrategy._maxSize">
+            <summary>
+            Holds the maximum roll-over size
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverSizeStrategy._fileNumber">
+            <summary>
+            Holds the fileNumber for the roll-over
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverSizeStrategy.#ctor(System.String,System.Int64)">
+            <summary>
+            Create a new RollOverSizeStrategy
+            </summary>
+            <param name="fullPathFormatString"></param>
+            <param name="maxSize"></param>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverSizeStrategy.GetFileNumber">
+            <summary>
+            Determine the fileNumber by searching for the highest number available and append 1 to it.
+            </summary>
+            <returns>(int)FileNumber</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverSizeStrategy.GetIncrementalName(NightBitsLogger.Items.LogItem,System.String)">
+            <summary>
+            Get the incrementalName of the LogFile (LogFile number)
+            </summary>
+            <param name="logItem"></param>
+            <param name="formattedLogString"></param>
+            <returns>(String)Filenumber as a string</returns>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.RollingFileLogger.RollOverSizeStrategy._FileNumber">
+            <summary>
+            Get or Set the FileNumber for the roll-over
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.NullLogger">
+            <summary>
+            This class can be used as a placeHolder where the actual Logger is not yet known
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemRegexMatchReplacer">
+            <summary>
+            This class formats strings using a format string with named parameters, with data from a LogItem.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemRegexMatchReplacer.DoReplace(System.Text.RegularExpressions.Match)">
+            <summary>
+            Replcaes a given match and formats the String accordingly
+            </summary>
+            <param name="match"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemRegexMatchReplacer.ForVariable(NightBitsLogger.Items.LogItemRegexMatchReplacer.EVariable,NightBitsLogger.Items.LogItem,NightBitsLogger.BaseLogger.Logger.LoggingErrorHandler)">
+            <summary>
+            Create a LogItemRegExMatchReplacer according to the variable and logItem
+            </summary>
+            <param name="variable"></param>
+            <param name="logItem"></param>
+            <param name="loggingErrorHandler"></param>
+            <returns>(LogItemRegexMatchReplacer) logItemRegexMatchReplacer</returns>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemRegexMatchReplacer.Replace(System.String,NightBitsLogger.Items.LogItem,NightBitsLogger.BaseLogger.Logger.LoggingErrorHandler)">
+            <summary>
+            Utility method to do the replacing in a format string
+            </summary>
+            <param name="formatString"></param>
+            <param name="logItem"></param>
+            <param name="loggingErrorHandler"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemRegexMatchReplacer.IsMatch(System.String,NightBitsLogger.Items.LogItemRegexMatchReplacer.EVariable)">
+            <summary>
+            Return true if the given formatString matches the regex for the given variable
+            </summary>
+            <param name="formatString"></param>
+            <param name="variable"></param>
+            <returns>(bool)formatStringMatchesRegex</returns>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItemRegexMatchReplacer.Variable">
+            <summary>
+            The item being formatted
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItemRegexMatchReplacer.LogItem">
+            <summary>
+            The LogItem to use
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItemRegexMatchReplacer.LoggingErrorHandler">
+            <summary>
+             A delegate used to trigger the LoggingError event in a Logger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Items.LogItemRegexMatchReplacer.VariableValue">
+            <summary>
+            The replacement for the variable
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemRegexMatchReplacer.EVariable">
+            <summary>
+            The set of items that can be formatted
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItemRegexMatchReplacer.EVariable.Application">
+            <summary>
+            Application formatted
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItemRegexMatchReplacer.EVariable.Machine">
+            <summary>
+            Machine formatted
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItemRegexMatchReplacer.EVariable.Category">
+            <summary>
+            Category formatted
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItemRegexMatchReplacer.EVariable.LogLevel">
+            <summary>
+            LogLevel formatted
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItemRegexMatchReplacer.EVariable.Timestamp">
+            <summary>
+            TimeStamp formatted
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItemRegexMatchReplacer.EVariable.Message">
+            <summary>
+            Message formatted
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemRegexMatchReplacer.ApplicationReplacer">
+            <summary>
+            This class returns the Application as a LogItemRegexMatchReplacer
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemRegexMatchReplacer.MachineReplacer">
+            <summary>
+            This class returns the Machine as a LogItemRegexMatchReplacer
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemRegexMatchReplacer.CategoryReplacer">
+            <summary>
+            This class returns the Category as a LogItemRegexMatchReplacer
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemRegexMatchReplacer.LogLevelReplacer">
+            <summary>
+            This class returns the LogLevel as a LogItemRegexMatchReplacer
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemRegexMatchReplacer.TimestampReplacer">
+            <summary>
+            This class returns the Date as a LogItemRegexMatchReplacer
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemRegexMatchReplacer.MessageReplacer">
+            <summary>
+            This class returns the Message as a LogItemRegexMatchReplacer
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemPassFilter">
+            <summary>
+            This Filter "passes" all LogItems
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemPassFilter.IsAllowedToPass(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Determine if aLogItem should pass through the filter.
+            </summary>
+            <param name="logItem"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NightBitsLogger.Items.LogItemFormatStringFormatter">
+            <summary>
+            A LogItemFormatter subclass that works like the string.Format() method.
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.Items.LogItemFormatStringFormatter.FormatString">
+            <summary>
+            This string represents the format of the to be logged message
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemFormatStringFormatter.#ctor(System.String,NightBitsLogger.BaseLogger.Logger.LoggingErrorHandler)">
+            <summary>
+            Creates an instance of the LogItemFormatStringFormatter
+            </summary>
+            <param name="formatString"></param>
+            <param name="loggingErrorHandler"></param>
+        </member>
+        <member name="M:NightBitsLogger.Items.LogItemFormatStringFormatter.AsString(NightBitsLogger.Items.LogItem)">
+            <summary>
+            Represents a LogItem as a string
+            </summary>
+            <param name="logItem"></param>
+            <returns>(String)Representation of the LogItem</returns>
+        </member>
+        <member name="T:NightBitsLogger.NightBitsLoggers.ConfigurationLogger">
+            <summary>
+            The ConfigurationLogger creates a CollectionOfLoggers by reading the configuration from the app.config (If supplied)
+            </summary>
+        </member>
+        <member name="F:NightBitsLogger.NightBitsLoggers.ConfigurationLogger._instance">
+            <summary>
+            Creates an instance of the ConfigurationLogger to access publicly throughout the application
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.ConfigurationLogger.Configure(NightBitsLogger.NightBitsLoggers.CollectionOfLoggers,NightBitsLogger.NightBitsLoggers.ConfigurationLogger,NightBitsLogger.Configuration.CollectionOfLoggersElement)">
+            <summary>
+            Configures the collection of loggers and their respective elements according to the configuration specified in the app.config
+            </summary>
+            <param name="CollectionOfLoggers"></param>
+            <param name="ConfigurationLogger"></param>
+            <param name="collectionOfLoggersElement"></param>
+            <returns>(Logger)collectionOfLoggers</returns>
+        </member>
+        <member name="M:NightBitsLogger.NightBitsLoggers.ConfigurationLogger.Configure(NightBitsLogger.BaseLogger.Logger,NightBitsLogger.NightBitsLoggers.ConfigurationLogger,NightBitsLogger.Configuration.ConfigurationItem)">
+            <summary>
+            Configures the given logger according to the configuration specified in the app.config
+            </summary>
+            <param name="logger"></param>
+            <param name="ConfigurationLogger"></param>
+            <param name="ConfigurationElement"></param>
+            <returns>(Logger)configuredLogger</returns>
+        </member>
+        <member name="P:NightBitsLogger.NightBitsLoggers.ConfigurationLogger.Instance">
+            <summary>
+            Creates the config logger and configures it accoring to the configuration specified in the app.config
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.ConfigurationItem">
+            <summary>
+            This is the baseClass that represents a Config Item (Logger)
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Configuration.ConfigurationItem.GetConfiguration">
+            <summary>
+            Get the configuration
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NightBitsLogger.Configuration.ConfigurationItem.PostDeserialize">
+             <summary>
+             Occurs after the element is deserialized
+             </summary>
+            
+        </member>
+        <member name="M:NightBitsLogger.Configuration.ConfigurationItem.Validate">
+            <summary>
+            Validate the element. Throw a exception if not valid.
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Configuration.ConfigurationItem.IsConfiguredForThisMachine">
+            <summary>
+            Return true if the Logger Element is configured for the current machine; otherwise return false.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.ConfigurationItem.Name">
+            <summary>
+            Get the name of the Logger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.ConfigurationItem.Machine">
+            <summary>
+            The machine names (separated by commas) for which the Logger will be created. An empty value creates it on all machines.
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.ConfigurationItem.IsInternalLoggingEnabled">
+            <summary>
+            Check if the Internal Exception Logging is enabled
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.ConfigurationItem.IsEnabled">
+            <summary>
+            Check if the Logger is enabled
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.ConfigurationItem.LogLevel">
+            <summary>
+            The LogLevel of the Logger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.ConfigurationItem.IncludeCategories">
+            <summary>
+            Categories to include (leave blank for all)
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.ConfigurationItem.ExcludeCategories">
+            <summary>
+            Categories to exclude
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.ConfigurationItem.keepLogging">
+            <summary>
+            If true, wrap the Logger in an KeepLoggingLogger.
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.ConfigurationItem.IsAsynchronous">
+            <summary>
+            If true, wrap the Logger in an AsynchronousLogger.
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.ConfigurationItem.FormatString">
+            <summary>
+            The FormatString for the Logger
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.RollingSizeFileLoggerElement">
+            <summary>
+            The element representing a RollingFileLogger using a RolloverSizeStategy
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.RollingSizeFileLoggerElement.FileName">
+            <summary>
+            The path of the file
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.RollingSizeFileLoggerElement.MaxSize">
+            <summary>
+            The maximum size of the log file
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.RollingDateFileLoggerElement">
+            <summary>
+            The element representing a RollingFileLogger using a RolloverDateStategy
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.RollingDateFileLoggerElement.FormattedFileName">
+            <summary>
+            The path of the file
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.CollectionOfLoggersElement">
+            <summary>
+                This element represents a CollectionOfLoggers
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.CollectionOfLoggersElement.CollectionOfLoggers">
+            <summary>
+                A collection of CollectionOfLoggers Elements
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.CollectionOfLoggersElement.FileLoggers">
+            <summary>
+                A collection of EncryptedLogger Elements
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.CollectionOfLoggersElement.RollingDateFileLoggers">
+            <summary>
+                A collection of RollingDateFileLogger Elements
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.CollectionOfLoggersElement.RollingSizeFileLoggers">
+            <summary>
+                A collection of RollingSizeFileLogger Elements
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.CollectionOfLoggersElement.EmailLoggers">
+            <summary>
+                A collection of EmailLogger Elements
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.CollectionOfLoggersElement.SocketLoggers">
+            <summary>
+                A collection of SocketLogger Elements
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.CollectionOfLoggersElement.WindowsEventLogLoggers">
+            <summary>
+                A collection of WindowsEventLogLogger Elements
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.CollectionOfLoggersElement.ConsoleLoggers">
+            <summary>
+                A collection of ConsoleLogger Elements
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.LoggingSection">
+            <summary>
+            The Logging Section of a configuration file (Represents a collectionOfLoggers)
+            </summary>
+        </member>
+        <member name="M:NightBitsLogger.Configuration.LoggingSection.OnDeserializeUnrecognizedAttribute(System.String,System.String)">
+            <summary>
+            Handle the unrecognized 'xmlns' attribute
+            </summary>
+            <param name="name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.LoggingSection.Application">
+            <summary>
+            The Application name
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.LoggingSection.FormatString">
+            <summary>
+            The FormatString for the Logger
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.FileLoggerElement">
+            <summary>
+            This element represents a EncryptedLogger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.FileLoggerElement.FileName">
+            <summary>
+            The path of the file
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.ConsoleLoggerElement">
+            <summary>
+            The element representing a ConsoleLogger
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.WindowsEventLogLoggerElement">
+            <summary>
+            This element represents the WindowsEventLogLogger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.WindowsEventLogLoggerElement.LogName">
+            <summary>
+            The name of the log. (Leave blank to use the default Application log).
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.SocketLoggerElement">
+            <summary>
+            The element representing a SocketLogger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.SocketLoggerElement.Host">
+            <summary>
+            Get the HostName of the socket
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.SocketLoggerElement.Port">
+            <summary>
+            Get the Port of the socket
+            </summary>
+        </member>
+        <member name="T:NightBitsLogger.Configuration.EmailLoggerElement">
+            <summary>
+            This element represents an EmailLogger
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.EmailLoggerElement.To">
+            <summary>
+            The "to" email address field for the email
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.EmailLoggerElement.From">
+            <summary>
+            The "from" email address field for the email
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.EmailLoggerElement.SmtpHost">
+            <summary>
+            The SMTP host name for the email
+            </summary>
+        </member>
+        <member name="P:NightBitsLogger.Configuration.EmailLoggerElement.Subject">
+            <summary>
+            The subject for the email
+            </summary>
+        </member>
+    </members>
+</doc>

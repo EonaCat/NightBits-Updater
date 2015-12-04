@@ -1,0 +1,1276 @@
+===========================
+NightBits Logger started at 17-1-2015 15:12:12 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 17-1-2015 15:12:15 -- Checking for new updates..
+[Info] -- 17-1-2015 15:12:17 -- No updates available at this time.
+[Info] -- 17-1-2015 15:12:17 -- No update available dialog shown
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:12:12
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:15:09 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:15:09
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:15:20 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:15:20
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:15:24 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 17-1-2015 15:15:24 -- Checking for new updates..
+[Warning] -- 17-1-2015 15:15:25 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Info] -- 17-1-2015 15:15:26 -- Update '1.0.1' is marked as skipped and therefore will be skipped
+[Info] -- 17-1-2015 15:15:26 -- No updates available at this time.
+[Info] -- 17-1-2015 15:15:26 -- No update available dialog shown
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:15:24
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:16:02 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 17-1-2015 15:16:02 -- Checking for new updates..
+[Warning] -- 17-1-2015 15:16:03 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Info] -- 17-1-2015 15:16:04 -- Update '1.0.1' is marked as skipped and therefore will be skipped
+[Info] -- 17-1-2015 15:16:04 -- No updates available at this time.
+[Info] -- 17-1-2015 15:16:04 -- No update available dialog shown
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:16:02
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:16:17 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 17-1-2015 15:16:18 -- Checking for new updates..
+[Info] -- 17-1-2015 15:16:20 -- Retrieving update information.
+[Info] -- 17-1-2015 15:16:21 -- Retrieved update information.
+[Info] -- 17-1-2015 15:16:21 -- Update available dialog shown
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:16:17
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:16:48 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 17-1-2015 15:16:48 -- Checking for new updates..
+[Info] -- 17-1-2015 15:16:50 -- Update '1.0.1' is marked as skipped and therefore will be skipped
+[Info] -- 17-1-2015 15:16:50 -- No updates available at this time.
+[Info] -- 17-1-2015 15:16:50 -- No update available dialog shown
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:16:48
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:16:55 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:16:55
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:21:24 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 17-1-2015 15:21:24 -- Checking for new updates..
+[Warning] -- 17-1-2015 15:21:25 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Warning] -- 17-1-2015 15:21:26 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 17-1-2015 15:21:26 -- Retrieving update information.
+[Info] -- 17-1-2015 15:21:27 -- Retrieved update information.
+[Info] -- 17-1-2015 15:21:27 -- Update available dialog shown
+[Warning] -- 17-1-2015 15:21:30 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 17-1-2015 15:21:30 -- Validating update files availability.
+[Info] -- 17-1-2015 15:21:32 -- Please wait, Downloading updates..
+[Info] -- 17-1-2015 15:21:32 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+[Info] -- 17-1-2015 15:21:32 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has completed
+[Info] -- 17-1-2015 15:21:32 -- Updating dialog shown
+[Info] -- 17-1-2015 15:21:33 -- File: 'NightBits%20Updater%20Manual.pdf' : 15,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:21:33 -- File: 'NightBits%20Updater%20Manual.pdf' : 31,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:21:33 -- File: 'NightBits%20Updater%20Manual.pdf' : 47,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:21:33 -- File: 'NightBits%20Updater%20Manual.pdf' : 63,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:21:33 -- File: 'NightBits%20Updater%20Manual.pdf' : 79,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:21:33 -- File: 'NightBits%20Updater%20Manual.pdf' : 95,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:21:34 -- File: 'NightBits%20Updater%20Manual.pdf' : 111,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:21:34 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:21:34 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:21:34 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has started
+[Info] -- 17-1-2015 15:21:34 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has completed
+[Info] -- 17-1-2015 15:21:34 -- File: 'NightBitsUpdater%20Example.exe' : 15,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:34 -- File: 'NightBitsUpdater%20Example.exe' : 31,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:34 -- File: 'NightBitsUpdater%20Example.exe' : 47,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:34 -- File: 'NightBitsUpdater%20Example.exe' : 63,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 79,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 95,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 111,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 127,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 143,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 159,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 175,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 191,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 207,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 223,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 239,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- Detailed Update Progress shown
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 255,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 271,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 287,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:35 -- File: 'NightBitsUpdater%20Example.exe' : 303,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:36 -- File: 'NightBitsUpdater%20Example.exe' : 319,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:36 -- File: 'NightBitsUpdater%20Example.exe' : 335,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:36 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:36 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:21:36 -- Files are succesfully downloaded
+[Info] -- 17-1-2015 15:21:36 -- Copying files..
+[Info] -- 17-1-2015 15:21:36 -- Main executable will be updated
+[Info] -- 17-1-2015 15:21:36 -- Cleaning...
+[Info] -- 17-1-2015 15:21:36 -- Executing restartParameters: '/C ping 1.1.1.1 -n 1 -w 3000 > Nul & Del "J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBits Updater.exe" && copy "J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\Main\NightBitsUpdater Example.exe" "J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBits Updater.exe" && start /HIGH "" "J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBits Updater.exe"' - Restarting in 10 seconds
+[Info] -- 17-1-2015 15:21:36 -- Software update successful.
+[Info] -- 17-1-2015 15:21:36 -- Update completed dialog shown
+[Info] -- 17-1-2015 15:21:46 -- Application is being restarted
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:21:24
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:21:50 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:21:50
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:21:59 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:21:59
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:22:16 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:22:16
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:22:37 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:22:37
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:35:57 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:35:57
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:36:16 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 17-1-2015 15:36:17 -- Checking for new updates..
+[Warning] -- 17-1-2015 15:36:17 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Warning] -- 17-1-2015 15:36:19 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 17-1-2015 15:36:19 -- Retrieving update information.
+[Info] -- 17-1-2015 15:36:20 -- Retrieved update information.
+[Info] -- 17-1-2015 15:36:21 -- Update available dialog shown
+[Warning] -- 17-1-2015 15:36:23 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 17-1-2015 15:36:23 -- Validating update files availability.
+[Info] -- 17-1-2015 15:36:25 -- Please wait, Downloading updates..
+[Info] -- 17-1-2015 15:36:25 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+[Info] -- 17-1-2015 15:36:25 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has completed
+[Info] -- 17-1-2015 15:36:25 -- Updating dialog shown
+[Info] -- 17-1-2015 15:36:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 15,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:36:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 31,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:36:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 47,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:36:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 63,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:36:27 -- File: 'NightBits%20Updater%20Manual.pdf' : 79,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:36:27 -- File: 'NightBits%20Updater%20Manual.pdf' : 95,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:36:27 -- File: 'NightBits%20Updater%20Manual.pdf' : 111,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:36:27 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:36:27 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:36:27 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has started
+[Info] -- 17-1-2015 15:36:27 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has completed
+[Info] -- 17-1-2015 15:36:28 -- File: 'NightBitsUpdater%20Example.exe' : 15,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:28 -- File: 'NightBitsUpdater%20Example.exe' : 31,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:28 -- File: 'NightBitsUpdater%20Example.exe' : 47,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:28 -- File: 'NightBitsUpdater%20Example.exe' : 63,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:28 -- File: 'NightBitsUpdater%20Example.exe' : 79,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:28 -- File: 'NightBitsUpdater%20Example.exe' : 95,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:28 -- File: 'NightBitsUpdater%20Example.exe' : 111,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:28 -- File: 'NightBitsUpdater%20Example.exe' : 127,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:28 -- File: 'NightBitsUpdater%20Example.exe' : 143,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:28 -- File: 'NightBitsUpdater%20Example.exe' : 159,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:28 -- File: 'NightBitsUpdater%20Example.exe' : 175,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:28 -- File: 'NightBitsUpdater%20Example.exe' : 191,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:29 -- File: 'NightBitsUpdater%20Example.exe' : 207,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:29 -- File: 'NightBitsUpdater%20Example.exe' : 223,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:29 -- File: 'NightBitsUpdater%20Example.exe' : 239,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:29 -- File: 'NightBitsUpdater%20Example.exe' : 255,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:29 -- File: 'NightBitsUpdater%20Example.exe' : 271,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:29 -- File: 'NightBitsUpdater%20Example.exe' : 287,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:29 -- File: 'NightBitsUpdater%20Example.exe' : 303,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:29 -- File: 'NightBitsUpdater%20Example.exe' : 319,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:29 -- File: 'NightBitsUpdater%20Example.exe' : 335,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:29 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:29 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:36:29 -- Files are succesfully downloaded
+[Info] -- 17-1-2015 15:36:29 -- Copying files..
+[Info] -- 17-1-2015 15:36:29 -- Main executable will be updated
+[Info] -- 17-1-2015 15:36:29 -- Cleaning...
+[Info] -- 17-1-2015 15:36:29 -- Executing restartParameters: '/C ping 1.1.1.1 -n 1 -w 3000 > Nul & Del "J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsUpdater Example.exe" && copy "J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\Main\NightBitsUpdater Example.exe" "J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsUpdater Example.exe" && start /HIGH "" "J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsUpdater Example.exe"' - Restarting in 10 seconds
+[Info] -- 17-1-2015 15:36:29 -- Software update successful.
+[Info] -- 17-1-2015 15:36:29 -- Update completed dialog shown
+[Info] -- 17-1-2015 15:36:39 -- Application is being restarted
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:36:16
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:36:43 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:36:43
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:36:51 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 17-1-2015 15:36:51 -- Checking for new updates..
+[Warning] -- 17-1-2015 15:36:53 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 17-1-2015 15:36:53 -- No updates available at this time.
+[Info] -- 17-1-2015 15:36:53 -- No update available dialog shown
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:36:51
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:36:56 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:36:56
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:37:18 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 17-1-2015 15:37:18 -- Checking for new updates..
+[Warning] -- 17-1-2015 15:37:19 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Warning] -- 17-1-2015 15:37:20 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 17-1-2015 15:37:20 -- Retrieving update information.
+[Info] -- 17-1-2015 15:37:21 -- Retrieved update information.
+[Info] -- 17-1-2015 15:37:21 -- Update available dialog shown
+[Warning] -- 17-1-2015 15:37:23 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 17-1-2015 15:37:23 -- Validating update files availability.
+[Info] -- 17-1-2015 15:37:24 -- Please wait, Downloading updates..
+[Info] -- 17-1-2015 15:37:24 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+[Info] -- 17-1-2015 15:37:24 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has completed
+[Info] -- 17-1-2015 15:37:24 -- Updating dialog shown
+[Info] -- 17-1-2015 15:37:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 15,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:37:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 31,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:37:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 47,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:37:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 63,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:37:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 79,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:37:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 95,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:37:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 111,4 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:37:27 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:37:27 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 17-1-2015 15:37:27 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has started
+[Info] -- 17-1-2015 15:37:27 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has completed
+[Info] -- 17-1-2015 15:37:27 -- File: 'NightBitsUpdater%20Example.exe' : 15,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:27 -- File: 'NightBitsUpdater%20Example.exe' : 31,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:27 -- File: 'NightBitsUpdater%20Example.exe' : 47,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:28 -- File: 'NightBitsUpdater%20Example.exe' : 63,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:28 -- File: 'NightBitsUpdater%20Example.exe' : 79,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:28 -- File: 'NightBitsUpdater%20Example.exe' : 95,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:28 -- File: 'NightBitsUpdater%20Example.exe' : 111,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:28 -- File: 'NightBitsUpdater%20Example.exe' : 127,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:28 -- File: 'NightBitsUpdater%20Example.exe' : 143,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:28 -- File: 'NightBitsUpdater%20Example.exe' : 159,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:28 -- File: 'NightBitsUpdater%20Example.exe' : 175,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:28 -- File: 'NightBitsUpdater%20Example.exe' : 191,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:28 -- File: 'NightBitsUpdater%20Example.exe' : 207,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:29 -- File: 'NightBitsUpdater%20Example.exe' : 223,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:29 -- File: 'NightBitsUpdater%20Example.exe' : 239,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:29 -- File: 'NightBitsUpdater%20Example.exe' : 255,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:29 -- File: 'NightBitsUpdater%20Example.exe' : 271,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:29 -- File: 'NightBitsUpdater%20Example.exe' : 287,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:29 -- File: 'NightBitsUpdater%20Example.exe' : 303,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:29 -- File: 'NightBitsUpdater%20Example.exe' : 319,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:29 -- File: 'NightBitsUpdater%20Example.exe' : 335,3 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:29 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:29 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 17-1-2015 15:37:29 -- Files are succesfully downloaded
+[Info] -- 17-1-2015 15:37:29 -- Copying files..
+[Info] -- 17-1-2015 15:37:29 -- Main executable will be updated
+[Info] -- 17-1-2015 15:37:29 -- Cleaning...
+[Info] -- 17-1-2015 15:37:29 -- Executing restartParameters: '/C ping 1.1.1.1 -n 1 -w 3000 > Nul & Del "J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsUpdater Example.exe" && copy "J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\Main\NightBitsUpdater Example.exe" "J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsUpdater Example.exe" && start /HIGH "" "J:\Programming\C#\NightBitsUpdater\Example\bin\Debug\NightBitsUpdater Example.exe"' - Restarting in 10 seconds
+[Info] -- 17-1-2015 15:37:29 -- Software update successful.
+[Info] -- 17-1-2015 15:37:29 -- Update completed dialog shown
+[Info] -- 17-1-2015 15:37:39 -- Application is being restarted
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:37:18
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:37:03 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:37:03
+===========================
+
+===========================
+NightBits Logger started at 17-1-2015 15:41:42 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 17-1-2015 15:41:42
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 18:29:33 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 18:29:33
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 19:03:26 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:03:29 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:03:29 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Warning] -- 2-12-2015 19:03:31 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:03:31 -- Retrieving update information.
+[Info] -- 2-12-2015 19:03:32 -- Retrieved update information.
+[Info] -- 2-12-2015 19:03:40 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:03:41 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:03:41 -- Retrieving update information.
+[Info] -- 2-12-2015 19:03:42 -- Retrieved update information.
+[Info] -- 2-12-2015 19:03:46 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:03:47 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:03:47 -- Retrieving update information.
+[Info] -- 2-12-2015 19:03:48 -- Retrieved update information.
+
+===========================
+NightBits Logger stopped at 2-12-2015 19:03:26
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 19:03:54 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:03:57 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:03:58 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:03:58 -- Retrieving update information.
+[Info] -- 2-12-2015 19:03:59 -- Retrieved update information.
+
+===========================
+NightBits Logger stopped at 2-12-2015 19:03:54
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 19:04:54 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 19:04:54
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 19:05:24 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:06:05 -- Checking for new updates..
+[Info] -- 2-12-2015 19:06:12 -- Cleaning...
+[Info] -- 2-12-2015 19:06:12 -- Update failed dialog shown
+===========================
+NightBits Logger started at 2-12-2015 19:06:30 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:06:50 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:06:53 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:06:57 -- Retrieving update information.
+[Info] -- 2-12-2015 19:06:59 -- Retrieved update information.
+[Info] -- 2-12-2015 19:07:21 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:07:25 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:07:35 -- Retrieving update information.
+[Info] -- 2-12-2015 19:07:52 -- Retrieved update information.
+[Info] -- 2-12-2015 19:08:05 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:08:06 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:08:12 -- Retrieving update information.
+[Info] -- 2-12-2015 19:08:31 -- Retrieved update information.
+[Info] -- 2-12-2015 19:08:52 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:08:53 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:08:53 -- Retrieving update information.
+[Info] -- 2-12-2015 19:08:54 -- Retrieved update information.
+[Info] -- 2-12-2015 19:09:02 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:09:03 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:09:07 -- Retrieving update information.
+[Info] -- 2-12-2015 19:09:33 -- Retrieved update information.
+[Info] -- 2-12-2015 19:09:57 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:09:58 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:09:58 -- Retrieving update information.
+[Info] -- 2-12-2015 19:10:02 -- Retrieved update information.
+===========================
+NightBits Logger started at 2-12-2015 19:14:22 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:14:24 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:14:25 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:14:25 -- Retrieving update information.
+[Info] -- 2-12-2015 19:14:30 -- Retrieved update information.
+[Info] -- 2-12-2015 19:14:37 -- Update available dialog shown
+[Warning] -- 2-12-2015 19:14:48 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:14:48 -- Validating update files availability.
+[Info] -- 2-12-2015 19:14:49 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 19:14:49 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+===========================
+NightBits Logger started at 2-12-2015 19:15:31 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:15:34 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:15:35 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:15:35 -- Retrieving update information.
+[Info] -- 2-12-2015 19:15:40 -- Retrieved update information.
+[Info] -- 2-12-2015 19:15:53 -- Update available dialog shown
+[Warning] -- 2-12-2015 19:16:00 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:16:00 -- Validating update files availability.
+[Info] -- 2-12-2015 19:16:02 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 19:16:02 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+===========================
+NightBits Logger started at 2-12-2015 19:31:56 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:31:58 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:31:59 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:32:00 -- Retrieving update information.
+[Info] -- 2-12-2015 19:32:06 -- Retrieved update information.
+[Info] -- 2-12-2015 19:32:30 -- Update available dialog shown
+[Warning] -- 2-12-2015 19:32:45 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:32:45 -- Validating update files availability.
+[Info] -- 2-12-2015 19:32:46 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 19:32:46 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+===========================
+NightBits Logger started at 2-12-2015 19:34:51 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:35:49 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:36:04 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:36:15 -- Retrieving update information.
+[Info] -- 2-12-2015 19:36:19 -- Retrieved update information.
+===========================
+NightBits Logger started at 2-12-2015 19:36:36 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:36:38 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:36:39 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:36:40 -- Retrieving update information.
+[Info] -- 2-12-2015 19:36:41 -- Retrieved update information.
+[Info] -- 2-12-2015 19:36:41 -- Update available dialog shown
+[Warning] -- 2-12-2015 19:36:44 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:36:44 -- Validating update files availability.
+[Info] -- 2-12-2015 19:36:45 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 19:36:45 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+===========================
+NightBits Logger started at 2-12-2015 19:37:52 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:37:54 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:37:55 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:37:55 -- Retrieving update information.
+[Info] -- 2-12-2015 19:37:56 -- Retrieved update information.
+[Info] -- 2-12-2015 19:37:56 -- Update available dialog shown
+[Warning] -- 2-12-2015 19:37:57 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:37:57 -- Validating update files availability.
+[Info] -- 2-12-2015 19:37:59 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 19:37:59 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+===========================
+NightBits Logger started at 2-12-2015 19:47:08 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:47:15 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:47:17 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:47:25 -- Retrieving update information.
+[Info] -- 2-12-2015 19:47:28 -- Retrieved update information.
+===========================
+NightBits Logger started at 2-12-2015 19:48:01 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:48:14 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:48:15 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:48:20 -- Retrieving update information.
+[Info] -- 2-12-2015 19:48:27 -- Retrieved update information.
+===========================
+NightBits Logger started at 2-12-2015 19:48:43 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:48:49 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:48:51 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:48:51 -- Retrieving update information.
+[Info] -- 2-12-2015 19:48:51 -- Retrieved update information.
+[Info] -- 2-12-2015 19:48:52 -- Update available dialog shown
+[Info] -- 2-12-2015 19:48:56 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:48:58 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:48:58 -- Retrieving update information.
+[Info] -- 2-12-2015 19:48:59 -- Retrieved update information.
+[Info] -- 2-12-2015 19:48:59 -- Update available dialog shown
+===========================
+NightBits Logger started at 2-12-2015 19:50:55 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:50:57 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:50:58 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:50:58 -- Retrieving update information.
+[Info] -- 2-12-2015 19:50:59 -- Retrieved update information.
+[Info] -- 2-12-2015 19:50:59 -- Update available dialog shown
+[Info] -- 2-12-2015 19:51:15 -- Reminder dialog shown
+[Warning] -- 2-12-2015 19:51:20 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:51:20 -- Validating update files availability.
+[Info] -- 2-12-2015 19:51:21 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 19:51:21 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+[Info] -- 2-12-2015 19:51:21 -- Updating dialog shown
+[Info] -- 2-12-2015 19:51:25 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 19:51:42 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 19:51:46 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 19:51:50 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has completed
+[Info] -- 2-12-2015 19:51:51 -- File: 'NightBits%20Updater%20Manual.pdf' : 31,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:51:51 -- Updating dialog shown
+[Info] -- 2-12-2015 19:51:51 -- File: 'NightBits%20Updater%20Manual.pdf' : 47,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:51:51 -- File: 'NightBits%20Updater%20Manual.pdf' : 63,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:51:51 -- File: 'NightBits%20Updater%20Manual.pdf' : 79,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:51:51 -- File: 'NightBits%20Updater%20Manual.pdf' : 95,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:51:51 -- File: 'NightBits%20Updater%20Manual.pdf' : 111,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:51:51 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:51:51 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:51:51 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has started
+[Info] -- 2-12-2015 19:51:51 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has completed
+[Info] -- 2-12-2015 19:51:51 -- File: 'NightBitsUpdater%20Example.exe' : 15,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:51 -- File: 'NightBitsUpdater%20Example.exe' : 31,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:51 -- File: 'NightBitsUpdater%20Example.exe' : 47,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 63,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 79,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 95,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 111,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 127,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 143,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 159,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 175,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 191,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 207,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 223,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 239,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 255,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 271,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 287,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 303,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 319,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 335,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:51:52 -- Files are succesfully downloaded
+[Info] -- 2-12-2015 19:51:52 -- Copying files..
+[Info] -- 2-12-2015 19:51:52 -- Main executable will be updated
+[Info] -- 2-12-2015 19:51:52 -- Cleaning...
+[Info] -- 2-12-2015 19:51:52 -- Executing restartParameters: '/C ping 1.1.1.1 -n 1 -w 3000 > Nul & Del "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && copy "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\Main\NightBitsUpdater Example.exe" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && start /HIGH "" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe"' - Restarting in 10 seconds
+[Info] -- 2-12-2015 19:51:52 -- Software update successful.
+[Info] -- 2-12-2015 19:51:52 -- Update completed dialog shown
+[Info] -- 2-12-2015 19:52:02 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 19:52:02 -- Application is being restarted
+
+===========================
+NightBits Logger stopped at 2-12-2015 19:50:55
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 19:52:05 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 19:52:05
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 19:52:16 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 19:52:16
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 19:52:49 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:52:50 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:52:51 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:52:51 -- No updates available at this time.
+[Info] -- 2-12-2015 19:52:51 -- No update available dialog shown
+[Info] -- 2-12-2015 19:53:02 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:53:02 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:53:02 -- No updates available at this time.
+===========================
+NightBits Logger started at 2-12-2015 19:53:55 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:53:57 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:53:57 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Warning] -- 2-12-2015 19:53:58 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:53:59 -- Retrieving update information.
+[Info] -- 2-12-2015 19:53:59 -- Retrieved update information.
+[Info] -- 2-12-2015 19:54:04 -- Update available dialog shown
+[Warning] -- 2-12-2015 19:54:09 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:54:09 -- Validating update files availability.
+[Info] -- 2-12-2015 19:54:10 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 19:54:10 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+[Info] -- 2-12-2015 19:54:10 -- Updating dialog shown
+[Info] -- 2-12-2015 19:54:15 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 19:54:23 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 19:54:29 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 19:54:33 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 19:54:35 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has completed
+[Info] -- 2-12-2015 19:54:36 -- File: 'NightBits%20Updater%20Manual.pdf' : 31,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:54:36 -- Updating dialog shown
+[Info] -- 2-12-2015 19:54:36 -- File: 'NightBits%20Updater%20Manual.pdf' : 47,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:54:36 -- File: 'NightBits%20Updater%20Manual.pdf' : 63,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:54:36 -- File: 'NightBits%20Updater%20Manual.pdf' : 79,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:54:36 -- File: 'NightBits%20Updater%20Manual.pdf' : 95,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:54:36 -- File: 'NightBits%20Updater%20Manual.pdf' : 111,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:54:36 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:54:36 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:54:36 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has started
+[Info] -- 2-12-2015 19:54:36 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has completed
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 15,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 31,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 47,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 63,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 79,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 95,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 111,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 127,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 143,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 159,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 175,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 191,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 207,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 223,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 239,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 255,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 271,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 287,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 303,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 319,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 335,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:54:37 -- Files are succesfully downloaded
+[Info] -- 2-12-2015 19:54:37 -- Copying files..
+[Info] -- 2-12-2015 19:54:37 -- Main executable will be updated
+[Info] -- 2-12-2015 19:54:37 -- Cleaning...
+[Info] -- 2-12-2015 19:54:37 -- Executing restartParameters: '/C ping 1.1.1.1 -n 1 -w 3000 > Nul & Del "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && copy "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\Main\NightBitsUpdater Example.exe" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && start /HIGH "" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe"' - Restarting in 10 seconds
+[Info] -- 2-12-2015 19:54:38 -- Software update successful.
+[Info] -- 2-12-2015 19:54:38 -- Update completed dialog shown
+[Info] -- 2-12-2015 19:54:42 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 19:54:48 -- Application is being restarted
+
+===========================
+NightBits Logger stopped at 2-12-2015 19:53:55
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 19:54:51 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 19:54:51
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 19:55:00 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:55:03 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:55:03 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Warning] -- 2-12-2015 19:55:04 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:55:04 -- Retrieving update information.
+[Info] -- 2-12-2015 19:55:06 -- Retrieved update information.
+[Info] -- 2-12-2015 19:55:06 -- Update available dialog shown
+[Warning] -- 2-12-2015 19:55:13 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:55:13 -- Validating update files availability.
+[Info] -- 2-12-2015 19:55:15 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 19:55:15 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+[Info] -- 2-12-2015 19:55:15 -- Updating dialog shown
+===========================
+NightBits Logger started at 2-12-2015 19:57:39 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:57:42 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:57:43 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:57:43 -- Retrieving update information.
+[Info] -- 2-12-2015 19:57:44 -- Retrieved update information.
+[Info] -- 2-12-2015 19:57:44 -- Update available dialog shown
+[Warning] -- 2-12-2015 19:57:45 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:57:45 -- Validating update files availability.
+[Info] -- 2-12-2015 19:57:46 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 19:57:46 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+[Info] -- 2-12-2015 19:57:46 -- Updating dialog shown
+[Info] -- 2-12-2015 19:57:49 -- Detailed Update Progress shown
+===========================
+NightBits Logger started at 2-12-2015 19:59:05 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:59:08 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:59:09 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:59:09 -- Retrieving update information.
+[Info] -- 2-12-2015 19:59:09 -- Retrieved update information.
+[Info] -- 2-12-2015 19:59:09 -- Update available dialog shown
+[Warning] -- 2-12-2015 19:59:11 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:59:11 -- Validating update files availability.
+[Info] -- 2-12-2015 19:59:13 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 19:59:13 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+[Info] -- 2-12-2015 19:59:13 -- Updating dialog shown
+[Info] -- 2-12-2015 19:59:16 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 19:59:21 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 19:59:31 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has completed
+[Info] -- 2-12-2015 19:59:32 -- File: 'NightBits%20Updater%20Manual.pdf' : 31,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:59:32 -- Updating dialog shown
+[Info] -- 2-12-2015 19:59:32 -- File: 'NightBits%20Updater%20Manual.pdf' : 47,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:59:32 -- File: 'NightBits%20Updater%20Manual.pdf' : 63,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:59:32 -- File: 'NightBits%20Updater%20Manual.pdf' : 79,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:59:32 -- File: 'NightBits%20Updater%20Manual.pdf' : 95,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:59:32 -- File: 'NightBits%20Updater%20Manual.pdf' : 111,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:59:32 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:59:32 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 19:59:32 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has started
+[Info] -- 2-12-2015 19:59:32 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has completed
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 15,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 31,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 47,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 63,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 79,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 95,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 111,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 127,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 143,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 159,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 175,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 191,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 207,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 223,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 239,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 255,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 271,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 287,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 303,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 319,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 335,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 19:59:33 -- Files are succesfully downloaded
+[Info] -- 2-12-2015 19:59:33 -- Copying files..
+[Info] -- 2-12-2015 19:59:33 -- Main executable will be updated
+[Info] -- 2-12-2015 19:59:33 -- Cleaning...
+[Info] -- 2-12-2015 19:59:33 -- Executing restartParameters: '/C ping 1.1.1.1 -n 1 -w 3000 > Nul & Del "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && copy "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\Main\NightBitsUpdater Example.exe" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && start /HIGH "" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe"' - Restarting in 10 seconds
+[Info] -- 2-12-2015 19:59:33 -- Software update successful.
+[Info] -- 2-12-2015 19:59:34 -- Update completed dialog shown
+[Info] -- 2-12-2015 19:59:39 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 19:59:43 -- Application is being restarted
+
+===========================
+NightBits Logger stopped at 2-12-2015 19:59:05
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 19:59:47 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 19:59:49 -- Checking for new updates..
+[Warning] -- 2-12-2015 19:59:51 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 19:59:51 -- No updates available at this time.
+[Info] -- 2-12-2015 19:59:51 -- No update available dialog shown
+
+===========================
+NightBits Logger stopped at 2-12-2015 19:59:47
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:00:53 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:00:53
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:01:03 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 20:01:05 -- Checking for new updates..
+[Warning] -- 2-12-2015 20:01:05 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Warning] -- 2-12-2015 20:01:06 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:01:07 -- Retrieving update information.
+[Info] -- 2-12-2015 20:01:07 -- Retrieved update information.
+[Info] -- 2-12-2015 20:01:07 -- Update available dialog shown
+[Warning] -- 2-12-2015 20:01:10 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:01:10 -- Validating update files availability.
+[Info] -- 2-12-2015 20:01:12 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 20:01:12 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+[Info] -- 2-12-2015 20:01:12 -- Updating dialog shown
+[Info] -- 2-12-2015 20:01:23 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has completed
+[Info] -- 2-12-2015 20:01:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 31,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:01:26 -- Updating dialog shown
+[Info] -- 2-12-2015 20:01:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 47,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:01:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 63,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:01:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 79,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:01:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 95,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:01:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 111,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:01:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:01:26 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:01:26 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has started
+[Info] -- 2-12-2015 20:01:26 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has completed
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 15,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 31,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 47,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 63,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 79,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 95,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 111,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 127,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 143,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 159,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 175,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 191,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 207,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 223,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 239,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 255,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 271,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 287,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 303,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 319,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 335,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:01:27 -- Files are succesfully downloaded
+[Info] -- 2-12-2015 20:01:27 -- Copying files..
+[Info] -- 2-12-2015 20:01:27 -- Main executable will be updated
+[Info] -- 2-12-2015 20:01:27 -- Cleaning...
+[Info] -- 2-12-2015 20:01:27 -- Executing restartParameters: '/C ping 1.1.1.1 -n 1 -w 3000 > Nul & Del "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && copy "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\Main\NightBitsUpdater Example.exe" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && start /HIGH "" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe"' - Restarting in 10 seconds
+[Info] -- 2-12-2015 20:01:27 -- Software update successful.
+[Info] -- 2-12-2015 20:01:28 -- Update completed dialog shown
+[Info] -- 2-12-2015 20:01:32 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 20:01:35 -- File: 'NightBitsUpdater%20Example.exe' : 15,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:01:37 -- Application is being restarted
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:01:03
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:02:02 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:02:02
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:02:11 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 20:02:14 -- Checking for new updates..
+[Warning] -- 2-12-2015 20:02:15 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Warning] -- 2-12-2015 20:02:16 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:02:16 -- Retrieving update information.
+[Info] -- 2-12-2015 20:02:17 -- Retrieved update information.
+[Info] -- 2-12-2015 20:02:17 -- Update available dialog shown
+===========================
+NightBits Logger started at 2-12-2015 20:01:41 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:01:41
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:05:57 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:05:57
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:13:31 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 20:13:37 -- Checking for new updates..
+[Warning] -- 2-12-2015 20:13:38 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:13:38 -- Retrieving update information.
+[Info] -- 2-12-2015 20:13:39 -- Retrieved update information.
+[Info] -- 2-12-2015 20:13:39 -- Update available dialog shown
+[Warning] -- 2-12-2015 20:13:48 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:13:48 -- Validating update files availability.
+[Info] -- 2-12-2015 20:13:50 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 20:13:50 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+[Info] -- 2-12-2015 20:13:53 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has completed
+[Info] -- 2-12-2015 20:13:53 -- Updating dialog shown
+[Info] -- 2-12-2015 20:13:54 -- File: 'NightBits%20Updater%20Manual.pdf' : 15,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:13:54 -- File: 'NightBits%20Updater%20Manual.pdf' : 31,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:13:54 -- File: 'NightBits%20Updater%20Manual.pdf' : 47,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:13:54 -- File: 'NightBits%20Updater%20Manual.pdf' : 63,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:13:54 -- File: 'NightBits%20Updater%20Manual.pdf' : 79,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:13:54 -- File: 'NightBits%20Updater%20Manual.pdf' : 95,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:13:54 -- File: 'NightBits%20Updater%20Manual.pdf' : 111,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:13:54 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:13:54 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:13:54 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has started
+[Info] -- 2-12-2015 20:13:54 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has completed
+[Info] -- 2-12-2015 20:13:54 -- File: 'NightBitsUpdater%20Example.exe' : 15,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:54 -- File: 'NightBitsUpdater%20Example.exe' : 31,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:54 -- File: 'NightBitsUpdater%20Example.exe' : 47,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 63,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 79,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 95,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 111,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 127,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 143,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 159,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 175,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 191,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 207,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 223,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 239,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 255,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 271,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 287,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 303,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 319,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 335,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:13:55 -- Files are succesfully downloaded
+[Info] -- 2-12-2015 20:13:55 -- Copying files..
+[Info] -- 2-12-2015 20:13:55 -- Main executable will be updated
+[Info] -- 2-12-2015 20:13:55 -- Cleaning...
+[Info] -- 2-12-2015 20:13:55 -- Executing restartParameters: '/C ping 1.1.1.1 -n 1 -w 3000 > Nul & Del "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && copy "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\Main\NightBitsUpdater Example.exe" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && start /HIGH "" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe"' - Restarting in 10 seconds
+[Info] -- 2-12-2015 20:13:55 -- Software update successful.
+[Info] -- 2-12-2015 20:13:55 -- Update completed dialog shown
+[Info] -- 2-12-2015 20:14:05 -- Application is being restarted
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:13:31
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:14:08 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:14:08
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:14:30 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 20:14:33 -- Checking for new updates..
+[Warning] -- 2-12-2015 20:14:34 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:14:34 -- No updates available at this time.
+[Info] -- 2-12-2015 20:14:34 -- No update available dialog shown
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:14:30
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:15:12 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 20:15:14 -- Checking for new updates..
+[Warning] -- 2-12-2015 20:15:14 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Info] -- 2-12-2015 20:15:23 -- Checking for new updates..
+[Warning] -- 2-12-2015 20:15:23 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Info] -- 2-12-2015 20:15:45 -- Checking for new updates..
+[Warning] -- 2-12-2015 20:15:45 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Warning] -- 2-12-2015 20:15:46 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:15:46 -- Retrieving update information.
+[Info] -- 2-12-2015 20:15:48 -- Retrieved update information.
+[Info] -- 2-12-2015 20:15:48 -- Update available dialog shown
+[Warning] -- 2-12-2015 20:15:51 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:15:51 -- Validating update files availability.
+[Info] -- 2-12-2015 20:16:07 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 20:16:07 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+[Info] -- 2-12-2015 20:16:07 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has completed
+[Info] -- 2-12-2015 20:16:07 -- Updating dialog shown
+[Info] -- 2-12-2015 20:16:08 -- File: 'NightBits%20Updater%20Manual.pdf' : 15,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:16:08 -- File: 'NightBits%20Updater%20Manual.pdf' : 31,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:16:08 -- File: 'NightBits%20Updater%20Manual.pdf' : 47,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:16:08 -- File: 'NightBits%20Updater%20Manual.pdf' : 63,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:16:08 -- File: 'NightBits%20Updater%20Manual.pdf' : 79,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:16:08 -- File: 'NightBits%20Updater%20Manual.pdf' : 95,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:16:08 -- File: 'NightBits%20Updater%20Manual.pdf' : 111,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:16:08 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:16:08 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:16:08 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has started
+[Info] -- 2-12-2015 20:16:08 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has completed
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 15,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 31,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 47,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 63,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 79,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 95,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 111,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 127,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 143,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 159,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 175,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 191,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 207,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 223,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 239,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 255,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 271,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 287,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 303,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 319,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 335,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:16:09 -- Files are succesfully downloaded
+[Info] -- 2-12-2015 20:16:09 -- Copying files..
+[Info] -- 2-12-2015 20:16:09 -- Main executable will be updated
+[Info] -- 2-12-2015 20:16:09 -- Cleaning...
+[Info] -- 2-12-2015 20:16:09 -- Executing restartParameters: '/C ping 1.1.1.1 -n 1 -w 3000 > Nul & Del "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && copy "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\Main\NightBitsUpdater Example.exe" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && start /HIGH "" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe"' - Restarting in 10 seconds
+[Info] -- 2-12-2015 20:16:09 -- Software update successful.
+[Info] -- 2-12-2015 20:16:09 -- Update completed dialog shown
+[Info] -- 2-12-2015 20:16:15 -- Detailed Update Progress shown
+[Info] -- 2-12-2015 20:16:19 -- Application is being restarted
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:15:12
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:16:23 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:16:23
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:16:30 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 20:16:33 -- Checking for new updates..
+[Warning] -- 2-12-2015 20:16:33 -- Local configuration file is inaccessible or not present in the location - creating local config file
+[Warning] -- 2-12-2015 20:16:34 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+===========================
+NightBits Logger started at 2-12-2015 20:17:45 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 20:17:47 -- Checking for new updates..
+[Warning] -- 2-12-2015 20:17:48 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:17:48 -- Retrieving update information.
+[Info] -- 2-12-2015 20:17:48 -- Retrieved update information.
+[Info] -- 2-12-2015 20:18:05 -- Checking for new updates..
+[Warning] -- 2-12-2015 20:18:06 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:18:06 -- Retrieving update information.
+[Info] -- 2-12-2015 20:18:07 -- Retrieved update information.
+[Warning] -- 2-12-2015 20:18:08 -- RegistryKey could not be found - Update will not be reminded at a later time (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:18:08 -- Validating update files availability.
+[Info] -- 2-12-2015 20:18:09 -- Please wait, Downloading updates..
+[Info] -- 2-12-2015 20:18:09 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has started
+[Info] -- 2-12-2015 20:18:10 -- Download of file 0 named 'NightBits%20Updater%20Manual.pdf' has completed
+[Info] -- 2-12-2015 20:18:10 -- File: 'NightBits%20Updater%20Manual.pdf' : 15,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:18:10 -- File: 'NightBits%20Updater%20Manual.pdf' : 31,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:18:10 -- File: 'NightBits%20Updater%20Manual.pdf' : 47,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:18:10 -- File: 'NightBits%20Updater%20Manual.pdf' : 63,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:18:10 -- File: 'NightBits%20Updater%20Manual.pdf' : 79,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:18:10 -- File: 'NightBits%20Updater%20Manual.pdf' : 95,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBits%20Updater%20Manual.pdf' : 111,3 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBits%20Updater%20Manual.pdf' : 118,7 KB of total 118,7 KB
+[Info] -- 2-12-2015 20:18:11 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has started
+[Info] -- 2-12-2015 20:18:11 -- Download of file 1 named 'NightBitsUpdater%20Example.exe' has completed
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 15,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 31,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 47,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 63,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 79,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 95,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 111,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 127,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 143,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 159,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 175,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 191,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 207,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 223,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 239,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 255,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 271,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 287,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:11 -- File: 'NightBitsUpdater%20Example.exe' : 303,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:12 -- File: 'NightBitsUpdater%20Example.exe' : 319,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:12 -- File: 'NightBitsUpdater%20Example.exe' : 335,2 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:12 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:12 -- File: 'NightBitsUpdater%20Example.exe' : 345,0 KB of total 345,0 KB
+[Info] -- 2-12-2015 20:18:14 -- Copying files..
+[Info] -- 2-12-2015 20:18:14 -- Main executable will be updated
+[Info] -- 2-12-2015 20:18:14 -- Cleaning...
+[Info] -- 2-12-2015 20:18:14 -- Executing restartParameters: '/C ping 1.1.1.1 -n 1 -w 3000 > Nul & Del "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && copy "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\Main\NightBitsUpdater Example.exe" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe" && start /HIGH "" "J:\Programming\C#\NightBitsUpdater\Everything\Example\bin\Debug\NightBitsUpdater Example.exe"' - Restarting in 10 seconds
+[Info] -- 2-12-2015 20:18:14 -- Software update successful.
+[Info] -- 2-12-2015 20:18:25 -- Application is being restarted
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:17:45
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:18:28 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:18:28
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:18:40 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 20:18:43 -- Checking for new updates..
+[Warning] -- 2-12-2015 20:18:45 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:18:45 -- No updates available at this time.
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:18:40
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:19:16 created by NightBits (Jeroen Saey)
+===========================
+
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:19:16
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 20:19:40 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 20:19:43 -- Checking for new updates..
+[Warning] -- 2-12-2015 20:19:44 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 20:19:44 -- No updates available at this time.
+
+===========================
+NightBits Logger stopped at 2-12-2015 20:19:40
+===========================
+
+===========================
+NightBits Logger started at 2-12-2015 21:08:30 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 2-12-2015 21:08:34 -- Checking for new updates..
+[Warning] -- 2-12-2015 21:08:36 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 21:08:36 -- No updates available at this time.
+[Info] -- 2-12-2015 21:09:02 -- Checking for new updates..
+[Warning] -- 2-12-2015 21:09:03 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 21:09:03 -- No updates available at this time.
+[Info] -- 2-12-2015 21:09:03 -- No update available dialog shown
+[Info] -- 2-12-2015 21:09:07 -- Checking for new updates..
+[Warning] -- 2-12-2015 21:09:08 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 2-12-2015 21:09:08 -- No updates available at this time.
+[Info] -- 2-12-2015 21:09:08 -- No update available dialog shown
+===========================
+NightBits Logger started at 4-12-2015 19:43:12 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 4-12-2015 19:43:18 -- Checking for new updates..
+[Warning] -- 4-12-2015 19:43:21 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 4-12-2015 19:43:21 -- No updates available at this time.
+[Info] -- 4-12-2015 19:43:26 -- Checking for new updates..
+[Warning] -- 4-12-2015 19:43:29 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 4-12-2015 19:43:29 -- No updates available at this time.
+[Info] -- 4-12-2015 19:43:29 -- No update available dialog shown
+
+===========================
+NightBits Logger stopped at 4-12-2015 19:43:12
+===========================
+
+===========================
+NightBits Logger started at 4-12-2015 19:49:39 created by NightBits (Jeroen Saey)
+===========================
+
+[Info] -- 4-12-2015 19:49:42 -- Checking for new updates..
+[Warning] -- 4-12-2015 19:49:43 -- RegistryKey could not be found - Update will not be skipped (it starts now) - Do you have administrator rights?
+[Info] -- 4-12-2015 19:49:43 -- No updates available at this time.
+[Info] -- 4-12-2015 19:49:43 -- No update available dialog shown
+
+===========================
+NightBits Logger stopped at 4-12-2015 19:49:39
+===========================
+
